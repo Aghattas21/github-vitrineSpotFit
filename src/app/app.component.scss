@@ -1,0 +1,41 @@
+// ================= btn mode ====================
+.blck-mode{
+    display: inline-grid;
+    width: max-content;
+    position: fixed;
+    right: 44px;
+    background: #f9f9f9eb;    
+    border-radius: 31px;
+    border: 1.5px solid #c5b4e9;
+    z-index: 9;
+    outline: none;
+    top: 17%;
+    padding: 2px 0 ;
+}
+.btn-md{
+    outline: none; background: none; border: none;
+}
+.btn-bg{
+    background-color: #efefef ;
+    border-radius: 5px;
+    margin: 2px 2px;
+}
+.img-md{
+    width: 25px;
+    margin: 3px 0px;
+}
+
+@media screen and (min-width : 576px) and (max-width : 991px ) {
+    .blck-mode {    
+     right: 37px;   
+     top: 132px; 
+     }
+}
+ 
+ @media screen and (max-width : 575px){
+ .blck-mode {    
+     right: 27px;   
+     top: 132px; 
+     }
+}
+ 
