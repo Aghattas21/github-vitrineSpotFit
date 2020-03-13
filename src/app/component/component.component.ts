@@ -6,6 +6,7 @@ import { HttpClient } from '@angular/common/http';
 import { CustomerRetursService } from '../services/customer-returs.service';
 import { IndicatorsService } from '../services/indicators.service';
 import 'hammerjs';
+import { ActivatedRoute } from '@angular/router';
 
 
 @Component({
@@ -42,9 +43,11 @@ export class ComponentComponent implements OnInit {
   private http:HttpClient,
   private indicatorsService: IndicatorsService,
   private customerReturnsService: CustomerRetursService,  
- 
+  private ar: ActivatedRoute
   ) {    
-    
+    ar.paramMap.subscribe(map => {
+      this.partnerRooms = map.get('dir');
+    })
   }
   
 

@@ -49,7 +49,7 @@ export interface Theme {
 
       "--gray-03" : "#9395a9",
 
-      "--black-01" :"#2E8B57",
+      "--black-01" :"#57c198",
 
       "--border-indicator" :"#eeecf4",
 
@@ -127,9 +127,6 @@ export interface Theme {
 
         "--purple-01" : "#321366",
 
-        "--gray-06" : "#C9C4DB"
-
-        
-        
+        "--gray-06" : "#C9C4DB"        
     }
   };

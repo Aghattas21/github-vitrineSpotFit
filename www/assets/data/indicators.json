@@ -1,0 +1,32 @@
+ [
+    {
+      "id" : 1,
+      "title" : "Baisse de l'absentésme",
+      "percentage" : 18
+    },
+    {
+      "id" : 2,
+      "title" : "Marque employeur et attractivité de l'entreprise",
+      "percentage" : 35
+    },
+    {
+      "id" : 3,
+      "title" : "Productivité",
+      "percentage" : 9
+    },
+    {
+      "id" : 4,
+      "title" : "Cohésion & climat social",
+      "percentage" : 25
+    },
+    {
+      "id" : 5,
+      "title" : "Baisse des risques (santé, stress, burnout)",
+      "percentage" : 24
+    },
+    {
+      "id" : 6,
+      "title" : "Baisse du turnover",
+      "percentage" : 100
+    }
+  ]

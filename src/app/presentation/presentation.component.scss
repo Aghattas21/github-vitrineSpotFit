@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.presentation{
+    .entet-acceuil{
+     padding-top: 11.5rem;
+     
+    }
+    .padding-presentation{
+        padding-left: 7%;
+        padding-right: 7%;        
+        .table-caption{
+            display: table-caption;
+            padding-top: 50px;
+            .title-presentation{
+                font-family: "roboto";
+                font-weight: 600;
+                color: #393756;
+                font-size: 38px;
+                line-height: unset;
+                letter-spacing: .8px;
+                white-space: nowrap;
+            }
+            p{
+                font-family: "lato";
+                padding-top:20px;
+                color:#8c8fa9;
+                font-size: 14.8px;
+                font-weight: normal;
+                line-height: 1.8;
+                letter-spacing: .7px;
+            }
+        }
+        .img-text{
+            width: 650px;
+            position: absolute;
+            left: -120px;
+        }
+        .back-img{
+            width: 20%;
+            position: absolute;
+            height: 440px;
+            background-color: #F8F7FB;
+            left: 0px;
+            border-top-right-radius: 60px;
+        }
+        .div-video{
+            margin-top:170px;
+            .block-video{
+                width: 100%;
+                height: 400px;
+                background-color: #aeadad;
+                border-radius: 8px;
+                margin-top: 40px;
+            }
+            .p-text-video{
+                padding-left: 5%;
+                padding-right: 54px;
+                .title{
+                    font-family: "roboto";
+                    font-weight: bold;
+                    font-size: 30px;
+                    letter-spacing: .2px;
+                    color: #373956;
+                    padding-top: 34px;
+                    padding-bottom: 15px;
+                }
+                p{
+                    font-family: "lato";
+                    padding-top:20px;
+                    color:#8c8fa9;
+                    font-size: 14.8px;
+                    font-weight: normal;
+                    line-height: 1.8;
+                    letter-spacing: .7px;
+                }
+                .img-arrow{
+                    width: 10px;
+                    margin-left: 8px;
+                }
+                .text-pink{
+                    font-family: "open sans";
+                    color: #8b54b0;
+                    font-weight: bold;
+                    font-size: 13.2px;
+                    letter-spacing: .6px;
+                    word-spacing: 1px;
+                    padding-top:25px;
+                    padding-left:2px;
+                }
+            }
+        }
+        .div-vision{
+            margin-top:100px;
+            .block-vision{
+                padding-right:50px;
+                .title{
+                    font-family: "roboto";
+                    font-weight: bold;
+                    font-size: 30px;
+                    letter-spacing: .2px;
+                    color: #373956;
+                    padding-bottom: 15px;
+                }
+                p{
+                    font-family: "lato";
+                    padding-top:20px;
+                    color:#8c8fa9;
+                    font-size: 14.8px;
+                    font-weight: normal;
+                    line-height: 1.8;
+                    letter-spacing: .7px;
+                }
+                .para-second{
+                    padding-top:10px;
+                }
+                .text-pink{
+                    font-family: "open sans";
+                    color: #8b54b0;
+                    font-weight: bold;
+                    font-size: 13.2px;
+                    letter-spacing: .6px;
+                    word-spacing: 1px;
+                    padding-top:20px;
+                    padding-left:2px;
+                }
+                .img-arrow{
+                    width: 10px;
+                    margin-left: 8px;
+                }
+            }
+            .img-vision{
+                margin-top: 70px;
+                width: 552px;
+                position: absolute;
+                left: -90;
+                height: 544px;
+            }
+        }
+        .logo-partners{
+            margin-top: 195px;
+            margin-bottom: 75px;
+            .col{
+                display: flex;
+                justify-content: center;
+            }
+            .img-logo{
+                img{
+                    width:150px;
+                }
+            }
+        }
+    }
+
+}

@@ -25,9 +25,9 @@ export class HeaderComponent implements OnInit {
   onWindowScroll() {
     let number =  this.document.documentElement.scrollTop || this.document.body.scrollTop ;
     // let width = this.windowRef.nativeWindow.innerWidth ;   
-    if ( number > 12 ) {
+    if ( number > 70 ) {
        this.headrscrll = true ;            
-    } else if ( number === 0  ) {
+    } else if ( number <= 50  ) {
       this.headrscrll = false ;
     }      
     } 

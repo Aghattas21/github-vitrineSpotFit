@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ThemeService } from './services/theme.service';
 import { NgxSpinnerService } from 'ngx-spinner';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,7 @@ export class AppComponent {
   partnerRooms = "normal_mode"
   
 
-  constructor (private themeService: ThemeService , private spinner: NgxSpinnerService){
+  constructor (private themeService: ThemeService , private spinner: NgxSpinnerService, private router :Router){
     this.spinner.show();
  
     setTimeout(() => {      
@@ -47,12 +48,18 @@ export class AppComponent {
 
   changeImg(){
     this.imgMode = !this.imgMode;
-    if(this.imgMode){
-      this.partnerRooms = "normal_mode";
-    }
-    else{
-      this.partnerRooms = "night_mode";
-    }
-  }  
+
+    let mode = this.imgMode ? 'normal_mode' : 'night_mode';
+    // if(this.imgMode){
+    //   this.partnerRooms = "normal_mode";
+      
+    // }
+    // else{
+    //   this.partnerRooms = "night_mode";
+    // }
+
+    this.router.navigate(['home', mode]);
+
+  }
 
 }

@@ -1,0 +1,181 @@
+// ====================== Font ============================
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+// ==================== Variable =========================
+
+$roroto : 'Roboto', sans-serif;
+$lato : 'Lato', sans-serif ; 
+$open-sans : 'Open Sans', sans-serif;
+$clr-tlt : #373956 ;
+$clr-prg : #8c8fa9 ; 
+
+// ======================= css En tête ===================
+
+.titre-acceuil{
+    font-family: $roroto;
+    color: $clr-tlt;
+    font-weight: 700;
+    padding: 1rem 0;
+    line-height: 1;
+    font-size: 47px;  
+}
+.text-acceuil{
+    color: $clr-prg;
+    font-family: $lato; 
+    padding-bottom: 2rem;   
+}
+.entet-acceuil{
+    padding: 10rem 0 4rem;
+}
+.blck-paragraphe{
+    padding: 3rem 2rem 3rem 5rem;
+}
+
+// ======================== css apropos =====================
+
+.apropos{
+    padding: 3rem;
+}
+.titre-apropos{
+    text-align: center;
+    color: #373956;
+    font-family: roboto;
+    font-weight: 700;
+    padding: 1.5rem 0;
+}
+.text-apropos{
+    color: #8c8fa9;
+    font-family: lato;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 1.5rem 0rem 4rem;
+}
+.blck-apropos{
+    justify-content: space-around;
+    padding: 0% 13%;
+}
+.tl-apropos{    
+    font-family: $open-sans;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-bottom: 5px;
+}
+.clr-a-vert{
+    color: #30c9b8;
+}
+.clr-a-bleu{
+    color: #9c85d7;
+}
+.clr-a-violet{
+    color: #c088fe;
+}
+.info-apropos{
+    color: #8c8fa9;
+    font-family: $lato;
+    letter-spacing: 0.5px;
+    width: 79%;    
+}
+// ======================= Css Offre ========================
+
+.offre{
+    padding: 4rem 4rem 0rem 4rem;
+    background-color: #f6f2fe;
+}
+.titre-offre{
+    color: $clr-tlt;
+    font-family:   $roroto ;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 32px;
+    padding: 9px 0;
+}
+.description-offre{
+    text-align: center;
+    color: $clr-prg;
+    font-family: $lato;    
+    padding-bottom: 2rem;
+}
+.tl-offre{
+    color: $clr-tlt;
+    font-family: $roroto;    
+    font-weight: 700;
+    padding-bottom: 11px;
+}
+.texte-offre{
+    color: $clr-prg ;
+    font-weight: $lato;    
+}
+.blck-info{   
+    padding: 2rem;
+    width: 27%;    
+}
+.blck-info:hover{
+    background-color: #ffffff;
+    box-shadow: 1.59px 2.54px 1px rgba(211,201,230,0.9);
+    border-radius: 22px;
+    transform: translateY(19px);
+    transition: all ease-in 0.3s;
+}
+.img-offre{
+    width: 57px;
+    margin: 5px 0 2rem;
+}
+.offre-img{
+    width: 100%;
+    text-align: center;
+}
+// ============================= css ca marche ====================
+.ca-marche{
+    padding: 6.5rem 4.5rem 4.5rem;
+}
+.titre-ca-marche{
+    text-align: center;
+    color: $clr-tlt;
+    font-family: $roroto;
+    font-weight: 700;
+}
+.text-ca-marche {
+    color: $clr-prg;
+    font-family: $lato;
+    text-align: center;
+    width: 52%;
+    margin: auto;
+    padding: 1rem;
+}
+.tl-ca-marche{
+    color: $clr-tlt;   
+    font-family: $lato;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    font-size: 26px;
+}
+.pargh-ca-marche{
+    color: $clr-prg;
+    padding: 1.1rem;
+    letter-spacing: 0.3px;
+    font-family: $lato;
+}
+// ======================= activites ==================
+.activites{
+    box-shadow: 0px 5px 12px rgba(126,76,171,0.19);
+    padding: 3rem 0rem 5rem;
+    background-image: linear-gradient(79deg,#53318f 0% ,#4f2d8d 53%, #1f0f5b 100%);
+}
+.titre-activit{
+    color: #ffffff;
+    font-family: $roroto;
+    font-weight: 500;
+    text-align: center;
+}
+
+.text-activit{
+    color: #ded9e6;
+    font-weight: $roroto;
+    font-weight: 500;
+    text-align: center;
+}
