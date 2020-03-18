@@ -17,23 +17,58 @@ $clr-prg : #8c8fa9 ;
 .titre-acceuil{
     font-family: $roroto;
     color: $clr-tlt;
-    font-weight: 700;
-    padding: 1rem 0;
+    font-weight: 700;    
     line-height: 1;
-    font-size: 47px;  
+    font-size: 39px;  
+}
+.blck-titre{
+    padding: 1rem 0;
+}
+.effect-titre {
+    box-shadow: inset 0px -20px 0px 0px #60d9cb;
 }
 .text-acceuil{
     color: $clr-prg;
     font-family: $lato; 
-    padding-bottom: 2rem;   
+    padding-bottom: 1.5rem;   
+}
+.text-acceuil-1{
+    color: $clr-prg;
+    font-family: $lato; 
+    padding: 0.5rem 0; 
 }
 .entet-acceuil{
-    padding: 10rem 0 4rem;
+    padding: 10rem 0rem 0rem;
 }
 .blck-paragraphe{
-    padding: 3rem 2rem 3rem 5rem;
+    padding: 3rem 3rem 3rem 5rem;
 }
-
+.v-home{
+    background-image: url(/assets/home/video-home.png);
+    background-size: 100% 100%;
+}
+// ===================== Css Partenaires ====================
+.img-part{
+    width: 103px;
+    margin: 0 2.5rem
+}
+.Partenaire-ac{
+    padding-bottom: 1rem;
+}
+.tl-prt{
+    color: $clr-tlt;
+    font-family: $lato;
+    font-weight: 600;
+    width: max-content;
+    padding: 0rem 1rem 2rem 8.5%;    
+}
+.ovr-scrl{
+    overflow-x: scroll;   
+    width: 90%;     
+}
+.ovr-scrl::-webkit-scrollbar {
+    display: none;
+}
 // ======================== css apropos =====================
 
 .apropos{
@@ -42,27 +77,47 @@ $clr-prg : #8c8fa9 ;
 .titre-apropos{
     text-align: center;
     color: #373956;
-    font-family: roboto;
+    font-family: $roroto;
     font-weight: 700;
     padding: 1.5rem 0;
+    text-transform: capitalize;
+
+}
+.blck-text-aprop{
+    padding: 1.5rem 0rem 4rem;
 }
 .text-apropos{
     color: #8c8fa9;
-    font-family: lato;
+    font-family: $lato;
     text-align: center;
     width: 70%;
-    margin: auto;
-    padding: 1.5rem 0rem 4rem;
+    margin: auto;    
 }
 .blck-apropos{
     justify-content: space-around;
-    padding: 0% 13%;
+    padding: 2rem 5%;
+}
+.apro-bg,.apro-bg2,.apro-bg3{
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 15% 100%;
+}
+
+.apro-bg{
+    background-image: url(../../assets/home/apropo/bg-rnd-3.png);
+}
+.apro-bg2{
+    background-image: url(../../assets/home/apropo/bg-rnd-1.png);
+}
+.apro-bg3{
+    background-image: url(../../assets/home/apropo/bg-rnd-2.png);
 }
 .tl-apropos{    
     font-family: $open-sans;
     font-weight: 600;
     letter-spacing: 0.5px;
     padding-bottom: 5px;
+    font-size: 20px;
 }
 .clr-a-vert{
     color: #30c9b8;
@@ -77,7 +132,7 @@ $clr-prg : #8c8fa9 ;
     color: #8c8fa9;
     font-family: $lato;
     letter-spacing: 0.5px;
-    width: 79%;    
+    width: 85%;    
 }
 // ======================= Css Offre ========================
 
@@ -100,15 +155,19 @@ $clr-prg : #8c8fa9 ;
     font-family: $lato;    
     padding-bottom: 2rem;
 }
-.tl-offre{
+.tl-offre ,.tl-offre1{
     color: $clr-tlt;
     font-family: $roroto;    
     font-weight: 700;
     padding-bottom: 11px;
+    font-size: 24px;
+}
+.tl-offre1{
+    font-size: 16px;
 }
 .texte-offre{
     color: $clr-prg ;
-    font-weight: $lato;    
+    font-family: $lato;    
 }
 .blck-info{   
     padding: 2rem;
@@ -163,14 +222,17 @@ $clr-prg : #8c8fa9 ;
 // ======================= activites ==================
 .activites{
     box-shadow: 0px 5px 12px rgba(126,76,171,0.19);
-    padding: 3rem 0rem 5rem;
     background-image: linear-gradient(79deg,#53318f 0% ,#4f2d8d 53%, #1f0f5b 100%);
+    padding: 3rem 0rem 16rem;
+    margin-bottom: -13rem;
 }
 .titre-activit{
     color: #ffffff;
     font-family: $roroto;
     font-weight: 500;
     text-align: center;
+    font-size: 29px;
+    padding-top: 1.1rem;
 }
 
 .text-activit{
@@ -178,4 +240,113 @@ $clr-prg : #8c8fa9 ;
     font-weight: $roroto;
     font-weight: 500;
     text-align: center;
+}
+
+.img-activite{
+    width: 97px;    
+}
+.blck-activite{
+    background: #ffffff;
+    padding: 4rem 0rem 1rem;
+    width: 81%;
+    margin: -3rem auto;
+    border-radius: 22px;
+    box-shadow: 0px 5px 4.5px rgba(55,57,86,0.11);
+}
+.ctn-actvt{
+    display: grid;
+}
+.spn-actvt{
+    padding: 2rem;
+}
+.spn-actvt2{
+    padding: 1.5rem;
+}
+.spn-actvt3{
+    padding: 0 1rem 1rem;
+}
+.spn-actvt,.spn-actvt2,.spn-actvt3{
+    color: #aca3bd;
+    font-family: lato;
+    font-weight: 600;
+}
+// ======================= css partenaria ======================
+.partenaria{
+    padding: 9rem 4rem 5rem;    
+}
+.blck-text-partner{
+    padding: 1.5rem 0;
+}
+.text-partner{
+    color: $clr-prg;    
+    letter-spacing: 0.3px;
+    font-family: $lato;  
+}
+.titre-partner{
+    color: $clr-tlt;   
+    font-family: $lato;
+    font-weight: 900;
+    letter-spacing: 0.5px; 
+    font-size: 29px;
+}
+.lien-partner{
+    color: #8b54b0;
+    font-weight: bold;
+}
+.blck-lien-prtner{
+    padding-top: 1rem;
+}
+.svg-icn {
+    width: 15px;
+    fill: #8b54b0;    
+    margin-left: 9px;
+}
+//======================== css formulaire ====================
+
+.btn-formulair{
+    color: #ffffff;
+    background-image: linear-gradient(79deg, #cb7bc3 0%, #55339f 100%);
+    border: none;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 14px 43px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+.znt-frm{
+    color: $clr-prg;
+    background-color: transparent;
+    font-weight: 600;
+    border: 1.5px solid #f0eef6;
+    border-radius: 4px;
+    font-size: 13px;
+    letter-spacing: 0.9px;
+    font-family: "open sans";
+    padding: 0 1.5rem;
+}
+.lbl-frm{
+    color: $clr-tlt;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 24px !important;
+    white-space: nowrap;    
+    margin-bottom: 0px;
+}
+::placeholder{
+    color : $clr-prg ;
+}
+.formulair{
+    background-image: url(/assets/home/map_home.png); 
+    padding: 1rem 0 0rem;
+    margin-bottom: -9rem;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-size: 54% 100%;  
+}
+.blck-frm{
+    justify-content: flex-end;
+    align-items: center;
+}
+.img-frm{
+    width: 290px;    
 }

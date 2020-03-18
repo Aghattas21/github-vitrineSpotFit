@@ -35,7 +35,7 @@ $clr-prg : #8c8fa9 ;
     background-color: white; 
 }
 .zn-tx{
-    width: 85%;
+    width: 70%;
     padding-left: 41px;
 }
 .zn-tx::-webkit-input-placeholder {
@@ -47,19 +47,21 @@ $clr-prg : #8c8fa9 ;
   }
 .btn-pers{
     color: #ffffff;    
-    height: 50px;
+    height: 55px;
     font-size: 13px;
     background-image: linear-gradient(79deg, #cb7bc3 0% , #553397 100%);
     border-radius: 4px;
     outline: none ;
-    width: 32%;    
+    width: 30%;    
     border: none;
     letter-spacing: 1.2px;
     font-weight: 600;
 }
-
-.paragraphe-entet{
+.blck-prg-entet{
     padding: 3rem 3rem 0;
+}
+.paragraphe-entet{
+   
     width: 67%;
     text-align: center;
     margin: 16px auto 0;
@@ -80,7 +82,7 @@ $clr-prg : #8c8fa9 ;
 }
 .blck-info{   
     border-radius: 6px;
-    width: 30%;
+    width: 22.5%;
     border: 1.4px solid #f2f1f6;
     border-radius: 6px;
     padding: 3rem 1rem 1.5rem 2rem;
@@ -157,18 +159,32 @@ $clr-prg : #8c8fa9 ;
 }
 .titre-forum{
     color: #373956;
-    font-family: roboto;
+    font-family: $roroto;
     font-weight: 700;
     padding: 2.5rem 0;
 }
 .forum-blck{
     border-bottom: 1px solid #9d9fb5;
 }
-.question{
+.grp-question{
+    justify-content: space-between;
+}
+.question, .question1, .question2, .question3, .question4, .question5, .question6, .question7,
+.question8, .question9, .question10, .question11, .question12, .question13{
     padding: 12px 0;
-    color: #787a94;
+    color: #9b5eb5;
     font-family: $lato;
     font-weight: 700;
+}
+.icon{
+    transform: rotate(-45deg);    
+    padding-top: 3px ;
+}
+.icon-faq{
+    font-family: $roroto;
+    font-weight: 500;
+    color: #9b5eb5;    
+    font-size: 25px;    
 }
  
 .reponce{
@@ -177,7 +193,23 @@ $clr-prg : #8c8fa9 ;
     font-size: 14px;
     width: 90%;
 }
-
+.forum-blck {    
+        .collapsed {
+            .question, .question1, .question2, .question3, .question4, .question5, .question6, .question7,
+            .question8, .question9, .question10, .question11, .question12, .question13{
+                color: #787a94;                
+            }
+            .icon{
+                transform: none;
+                padding-top: 6px;
+            }
+            .icon-faq{
+                color :#787a94 ;
+                padding: 3px;
+                font-size: 20px;
+            }
+        }    
+}
 //======================= css frm-contact =================
 .frm-contact{
     padding-bottom: 1.1rem;

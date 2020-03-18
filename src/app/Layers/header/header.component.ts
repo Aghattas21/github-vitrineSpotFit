@@ -17,19 +17,19 @@ export class HeaderComponent implements OnInit {
     
   }
 
-  varmenu(){
-    this.menuactive =! this.menuactive ;    
-  }
+  // varmenu(){
+  //   this.menuactive =! this.menuactive ;    
+  // }
 
-  @HostListener("window:scroll", [])
-  onWindowScroll() {
-    let number =  this.document.documentElement.scrollTop || this.document.body.scrollTop ;
-    // let width = this.windowRef.nativeWindow.innerWidth ;   
-    if ( number > 70 ) {
-       this.headrscrll = true ;            
-    } else if ( number <= 50  ) {
-      this.headrscrll = false ;
-    }      
-    } 
+  // @HostListener("window:scroll", [])
+  // onWindowScroll() {
+  //   let number =  this.document.documentElement.scrollTop || this.document.body.scrollTop ;
+  //   // let width = this.windowRef.nativeWindow.innerWidth ;   
+  //   if ( number > 70 ) {
+  //      this.headrscrll = true ;            
+  //   } else if ( number <= 50  ) {
+  //     this.headrscrll = false ;
+  //   }      
+  //   } 
     
 }

@@ -48,11 +48,11 @@
     fill: var(--svg-user);
     display: none;
 }
-nav{
-    position: fixed;
+nav{    
     width: 100%;
     z-index: 999;
-    padding: 3rem 3.5rem 1rem 1rem !important;  
+    padding: 3rem 3.5rem 1rem 1rem !important;
+    margin-bottom: -9rem !important;  
 }
 
 .navbar-nav {
@@ -84,14 +84,21 @@ transition: all ease-in 0.2s;
            width: 127px; 
         }
     }
-    .navbar-toggler{
-        margin-right: 15px;
-    }
+    // .navbar-toggler{
+    //     margin-right: 15px;
+    // }
+    nav{    
+        width: 100%;
+        z-index: 999;
+        padding: 3rem 3.5rem 1rem 1rem !important;}
+        
     .navbar {
         position: fixed;
         width: 100%;
         z-index: 99;
         box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        padding: 1rem !important;
+        background: #ffffff;
     }
     .avtr-svg{
         display: inline;
@@ -113,8 +120,8 @@ transition: all ease-in 0.2s;
     }
     .grp-menu {
         max-width: 99.9%;
-        transform: translateX(-8px);
-        top: 73px ;
+        transform: translateX(-14px);
+        top: 89px;        
         position: fixed;
         background-color: var(--bg-menu) ;        
         z-index: 99;
@@ -131,11 +138,13 @@ transition: all ease-in 0.2s;
         margin-right: 7px;
     }
     .grp-menu {      
-        top:  73px;
+        top: 89px;   
+        transform: translateX(-15px);
     }    
     .avtr-svg {        
         width: 22px;
     }
+    
 }
 @media screen and (min-width : 1200px){
     .grp-menu {
