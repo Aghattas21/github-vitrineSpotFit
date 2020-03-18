@@ -5,6 +5,7 @@ import { ComponentComponent } from './component/component.component';
 import { AcceuilComponent } from './acceuil/acceuil.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { PartnerComponent } from './partner/partner.component';
+import { TestComponent } from './test/test.component';
 
 
 const routes: Routes = [
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path : "partner",
     component : PartnerComponent
+  },
+  {
+    path : "teste",
+    component : TestComponent
   }
   
 ];

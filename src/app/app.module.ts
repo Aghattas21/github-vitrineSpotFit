@@ -17,12 +17,13 @@ import { AcceuilComponent } from './acceuil/acceuil.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { PartnerComponent } from './partner/partner.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { TestComponent } from './test/test.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,   
-    ComponentComponent, HelpCenterComponent, FormContactComponent, AcceuilComponent, PresentationComponent, PartnerComponent, ContactFormComponent  
+    ComponentComponent, HelpCenterComponent, FormContactComponent, AcceuilComponent, PresentationComponent, PartnerComponent, ContactFormComponent, TestComponent  
   ],
   imports: [
     BrowserModule,

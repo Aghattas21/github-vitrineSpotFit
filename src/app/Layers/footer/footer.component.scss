@@ -52,7 +52,7 @@
         z-index: 1001;
         div span{
             color: var(--white );
-            font-size: 12px;
+            font-size: 11px;
             font-weight: 400;
             cursor: pointer;
             letter-spacing: 0.2px;
@@ -132,3 +132,90 @@
         }
     }
 }
+
+@media screen and (min-width : 1400px){
+    .div-footer{
+        .logo{
+            svg{
+                width: 130px !important;
+            }
+        } 
+        span{
+            svg{
+                height: 10px !important;
+                width: 10px !important;
+            }
+        }
+        div{
+            span{
+                font-size:11px !important;
+                letter-spacing:.7px !important;
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 1600px){
+    .div-footer{
+        .logo{
+            svg{
+                width: 145px !important;
+            }
+        } 
+        span{
+            svg{
+                height: 13px !important;
+                width: 13px !important;
+            }
+        }
+        div{
+            span{
+                font-size:13px !important;
+                letter-spacing:1.1px !important;
+            }
+        }
+    }
+}
+@media screen and (min-width : 2000px){
+    .div-footer{
+        .logo{
+            svg{
+                width: 165px !important;
+            }
+        } 
+        span{
+            svg{
+                height: 16px !important;
+                width: 16px !important;
+            }
+        }
+        div{
+            span{
+                font-size:15px !important;
+                letter-spacing:1.5px !important;
+            }
+        }
+    }
+}
+@media screen and (min-width : 2400px){
+    .div-footer{
+        .logo{
+            svg{
+                width: 185px !important;
+            }
+        } 
+        span{
+            svg{
+                height: 18px !important;
+                width: 18px !important;
+            }
+        }
+        div{
+            span{
+                font-size:17px !important;
+                letter-spacing:1.6px !important;
+            }
+        }
+    }
+}
+
