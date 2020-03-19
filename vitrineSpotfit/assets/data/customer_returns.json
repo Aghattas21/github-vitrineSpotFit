@@ -1,0 +1,86 @@
+[
+    {
+      "id" :1 ,
+      "paragraph" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quia quod iure placeat ad ipsam quisquam dicta sunt quo illo, dolorum omnis, eligendi cupiditate unde illum consequuntur ullam dolores magni.",
+      "picture" : "img1.jpeg" ,
+      "name" : "Abd Ar-Razak Drawi",
+      "profession" : "DRH1"
+    },
+    {
+      "id" :2 ,
+      "paragraph" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quia quod iure placeat ad ipsam quisquam dicta sunt quo illo, dolorum omnis, eligendi cupiditate unde illum consequuntur ullam dolores magni.",
+      "picture" : "2.png" ,
+      "name" : "Layla Choukri",
+      "profession" : "DRH2"
+    },
+    {
+      "id" :3 ,
+      "paragraph" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quia quod iure placeat ad ipsam quisquam dicta sunt quo illo, dolorum omnis, eligendi cupiditate unde illum consequuntur ullam dolores magni.",
+      "picture" : "1.png" ,
+      "name" : "Nadim Chafik",
+      "profession" : "DRH3"
+    },
+    {
+        "id" :4 ,
+        "paragraph" : "mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem quo ",
+        "picture" : "3.png" ,
+        "name" : "naima Hilali",
+        "profession" : "DRH5"
+      },
+    {
+        "id" :5 ,
+        "paragraph" : "mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem quo ",
+        "picture" : "img1.jpeg" ,
+        "name" : "Mehdi Fatih",
+        "profession" : "DRH5"
+      },
+      {
+        "id" :6 ,
+        "paragraph" : "mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem quo ",
+        "picture" : "1.png" ,
+        "name" : "Karim Fikri",
+        "profession" : "DRH6"
+      },
+      {
+        "id" :7 ,
+        "paragraph" : "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur,",
+        "picture" : "img1.jpeg" ,
+        "name" : "Ahmed Kadir",
+        "profession" : "DRH7"
+      },
+      {
+        "id" :8 ,
+        "paragraph" : "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur,",
+        "picture" : "2.png" ,
+        "name" : "Fadia Khouloud",
+        "profession" : "DRH8"
+      },
+      {
+        "id" :9 ,
+        "paragraph" : "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur,",
+        "picture" : "3.png" ,
+        "name" : "Lamyaa Limar",
+        "profession" : "DRH"
+      },
+      {
+        "id" :10 ,
+        "paragraph" : "Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux av ,",
+        "picture" : "3.png" ,
+        "name" : "Assma Laouni",
+        "profession" : "DRH10"
+      },
+      {
+        "id" :11 ,
+        "paragraph" : "Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux av ,",
+        "picture" : "img1.jpeg" ,
+        "name" : "Marwane Melih",
+        "profession" : "DRH"
+      },
+      {
+        "id" :12 ,
+        "paragraph" : "Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux av ,",
+        "picture" : "1.png" ,
+        "name" : "Marwane Melih",
+        "profession" : "DRH"
+      }
+  ]
