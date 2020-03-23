@@ -17,9 +17,9 @@ export class HeaderComponent implements OnInit {
     
   }
 
-  // varmenu(){
-  //   this.menuactive =! this.menuactive ;    
-  // }
+  varmenu(){
+    this.menuactive =! this.menuactive ;    
+  }
 
   // @HostListener("window:scroll", [])
   // onWindowScroll() {

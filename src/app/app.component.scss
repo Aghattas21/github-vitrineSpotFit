@@ -38,4 +38,45 @@
      top: 132px; 
      }
 }
- 
+// ========================css setting =======================
+.setting{
+    position: fixed;
+    top: 19rem;
+    right: 0;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+} 
+.svg-setting{
+    width: 25px;
+    margin-right: 1.5rem;
+    fill: #6c7caa;
+}
+.paramtr{
+    display: none;
+}
+.setting:hover {
+    .svg-setting{  
+        width: 37px;     
+        fill: #000000;
+        animation-name: efftsetting;
+        animation-duration: 0.5s;
+        animation-timing-function: ease-in;
+        transition: all 0.2s ease-in;
+    }
+    .paramtr{
+        display: block;
+        transition: all 1s ease-in;
+    }
+}
+
+@keyframes efftsetting {    
+    to{transform: rotate(90deg);}
+}
+.lang{
+    font-size: 13px;
+    font-weight: bold;
+    img{
+        width: 30px;
+        margin-right: 1rem;
+    }
+}

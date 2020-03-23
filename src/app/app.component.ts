@@ -3,6 +3,9 @@ import { ThemeService } from './services/theme.service';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { Router } from '@angular/router';
 
+import {TranslateService} from '@ngx-translate/core';
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -15,8 +18,13 @@ export class AppComponent {
   partnerRooms = "normal_mode"
   
 
-  constructor (private themeService: ThemeService , private spinner: NgxSpinnerService, private router :Router){
-    this.spinner.show();
+  constructor (private themeService: ThemeService , private spinner: NgxSpinnerService,
+     private router :Router, private translate: TranslateService ){
+    
+     
+    
+      translate.setDefaultLang('fr');
+      this.spinner.show();
  
     setTimeout(() => {      
       this.spinner.hide();
@@ -25,6 +33,10 @@ export class AppComponent {
     this.setLightbulb();
     this.toggleTheme();
     this.toggleTheme();   
+  }
+
+  useLanguage(language: string) {
+    this.translate.use(language);
   }
 
   setLightbulb() {
