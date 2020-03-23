@@ -8,13 +8,13 @@
      
     }
     .padding-presentation{
-        width:83% ;
+        width:87% ;
         margin-left:auto ;
         margin-right:auto ;  
 
         .table-caption{
             display: table-caption;
-            padding-top: 60px;
+            padding-top: 45px;
             .title-presentation{
                 font-family: "roboto";
                 font-weight: 600;
@@ -28,7 +28,7 @@
                 font-family: "lato";
                 padding-top:20px;
                 color:#8c8fa9;
-                font-size: 14.8px;
+                font-size: 14px;
                 font-weight: normal;
                 line-height: 1.7;
                 letter-spacing: .7px;
@@ -43,19 +43,19 @@
         .back-img{
             width: 20%;
             position: absolute;
-            height: 560px;
+            height: 530px;
             background-color: #F8F7FB;
             left: 0px;
             border-top-right-radius: 60px;
         }
         .div-video{
-            margin-top:70px;
+            margin-top:40px;
             .height{
                 height: 60px;
             }
             .block-video{
                 width: 100%;
-                height: 500px;
+                height: 470px;
                 background-color: #aeadad;
                 border-radius: 8px;
                 margin-top:60px;
@@ -76,7 +76,7 @@
                     font-family: "lato";
                     padding-top:20px;
                     color:#8c8fa9;
-                    font-size: 14.8px;
+                    font-size: 14px;
                     font-weight: normal;
                     line-height: 1.7;
                     letter-spacing: .7px;
@@ -113,7 +113,7 @@
                     font-family: "lato";
                     padding-top:20px;
                     color:#8c8fa9;
-                    font-size: 14.8px;
+                    font-size: 14px;
                     font-weight: normal;
                     line-height: 1.7;
                     letter-spacing: .7px;
@@ -144,7 +144,7 @@
                 height: 544px;
             }
             .pad-top{
-                padding-top:70px;
+                padding-top:80px;
             }
             
         }
@@ -170,7 +170,7 @@
 @media screen and (max-width : 1300px){
     .padding-presentation{
         .p-right{
-            transform: translateX(-10vw)!important;
+            transform: translateX(-7vw)!important;
         }
 
     }
@@ -252,14 +252,14 @@
     .padding-presentation{
         width: 90% !important;
         .img-text{
-            width: 627px !important;
+            width: 624px !important;
             margin-top: 32px;
         }
         .title-presentation{
             font-size: 35px !important;
         }
         p{
-            font-size: 13.8px !important;
+            font-size: 13px !important;
         }
         .p-right{
             transform: translateX(-9vw)!important;
@@ -271,7 +271,7 @@
             height: 520px !important;
         }
         .pad-top{
-            padding-top: 30px !important;
+            padding-top: 45px !important;
         }
     }
 }
@@ -285,20 +285,21 @@
         .p-right{
             transform: translateX(-9vw)!important;
         }
+
     }
 }
 
 @media screen and (max-width : 1050px)  and (min-width : 992px){
     .padding-presentation{
         .img-text{
-            width: 565px!important;
-            margin-top: 62px !important;
+            width: 560px!important;
+            margin-top: 40px !important;
         }
         .p-right{
             transform: translateX(-9vw)!important;
         }
         .pad-top{
-            padding-top: 25px !important;
+            padding-top: 50px !important;
         }
     }
 }
@@ -309,7 +310,7 @@
             font-size: 30px !important;
         }
         p{
-            font-size: 12px !important;
+            font-size: 14px !important;
         }
         .img-text{
             width: 500px!important;
@@ -331,10 +332,10 @@
 @media screen and (max-width : 560px){
     .padding-presentation{
         .title-presentation{
-            font-size: 24px !important;
+            font-size: 28px !important;
         }
         p{
-            font-size: 14px  !important;
+            font-size: 13px  !important;
         }
         .img-text{
             width: 370px!important;
@@ -346,7 +347,7 @@
             height:340px !important;
         }
         .title{
-            font-size: 21px !important;
+            font-size: 23px !important;
         }
         .text-pink{
             font-size: 11px !important;
@@ -368,9 +369,6 @@
         .p-right{
             transform: translateX(0px) !important;
         }
-        .title-presentation{
-            font-size: 23px !important;
-        }
     }
 }
 
@@ -381,6 +379,9 @@
         }
         .p-right{
             transform: translateX(0px) !important;
+        }
+        .title-presentation{
+            font-size: 23px !important;
         }
     }
 }
@@ -479,6 +480,10 @@
             width: 11px !important;
         }
     }
+    .table-caption{
+        padding-top: 60px !important;
+    }
+    
 }
 
 
@@ -523,6 +528,10 @@
             width: 14px !important;
         }
     }
+    .table-caption{
+        padding-top: 100px !important;
+    }
+    
 }
 
 @media screen and (min-width : 2400px){
