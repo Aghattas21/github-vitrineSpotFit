@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+
+
 @Component({
   selector: 'app-help-center',
   templateUrl: './help-center.component.html',
@@ -7,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HelpCenterComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+   
+  }
 
   ngOnInit() {
   }

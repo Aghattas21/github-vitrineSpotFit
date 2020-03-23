@@ -1,46 +1,45 @@
+
 <section class="page-help-center">
     <section class="help-s1">
-        <h2 class="text-center titre-help">Comment pouvons nous vous aider ?</h2>
-       
-        <form action="" class="form-rechercher rounded  d-flex justify-content-between">
-            <input class="border-0 zn-tx bg-transparent" type="text" name="" id="" placeholder=" Tapez votre mot-clé ici">
-            <button class="btn btn-light p-2 btn-pers"> Rechercher </button>
-        </form>
-        <div class="blck-prg-entet">
-            <p class="paragraphe-entet">Nous faisons toujours de notre mieux pour vous satisfaire et nous travaillons à simplifier 
-                l'utilisation de nos services davantage, mais si vous avez encore des questions ou que vous vous sentez perdu, 
-                vous pourriez trouver des réponses dans cette section.</p>
-            <p class="paragraphe-entet">
-                (Dans le cas contraire, n’hésitez pas à contacter notre Live Chat en cliquant sur cette icône *ICONE*)
-            </p>
-        </div>
+        <div class="container-entet">
+            <h2 class="text-center titre-help">{{ 'help.titre' | translate }}</h2>
         
-        <div class="text-center">
-            <img src="../../assets/help-center/illustration1.svg" alt="" class="illustration1">
-        </div>
-        
+            <form action="" class="form-rechercher rounded  d-flex justify-content-between">
+                <input class="border-0 zn-tx bg-transparent" type="text" name="" id="" placeholder=" {{ 'Tapez' | translate }} ">
+                <button class="btn btn-light p-2 btn-pers">  {{ 'Rechercher' | translate }} </button>
+            </form>
+            <div class="blck-prg-entet">
+                <p class="paragraphe-entet">{{ 'help.text-entet' | translate }}</p>
+                <p class="paragraphe-entet">( {{ 'help.text-entet-1' | translate }} )</p>
+            </div>
+            
+            <div class="text-center">
+                <img src="../../assets/help-center/illustration1.svg" alt="" class="illustration1">
+            </div>
+        </div>       
     </section>
+<section class="container-page">
     <section class="help-s2">
-        <div class="d-flex justify-content-around bull-info">
-            <div class="blck-info">
+        <div class="row bull-info">
+            <div class="col-6 col-md-3 blck-info">
                <div>
                     <h5 class="titre-bull">Les Pass Spotfit</h5>
                     <p class="text-bull">Apprenez ce que chaque Pass procure</p>
                </div>
             </div>
-            <div class="blck-info">
+            <div class="col-6 col-md-3 blck-info">
                 <div>
                     <h5 class="titre-bull">Spotfit Pro</h5>
                     <p class="text-bull">Découvrez l'offre unique de Spotfit pour entreprises et salariés</p>
                 </div>              
             </div>
-            <div class="blck-info">
+            <div class="col-6 col-md-3 blck-info">
                 <div>
                     <h5 class="titre-bull">Spotfit Focus</h5>
                     <p class="text-bull">Explorez les offres dédiées aux établissements scolaires et universitaires</p>
                 </div>               
             </div>
-            <div class="blck-info">
+            <div class="col-6 col-md-3 blck-info">
                 <div>
                     <h5 class="titre-bull">Spotfit Focus</h5>
                     <p class="text-bull">Explorez les offres dédiées aux établissements scolaires et universitaires</p>
@@ -49,64 +48,76 @@
         </div>
     </section>
     <section class="article">
-        <div class="entet-articl">
-            <h4 class="titre-articl">Réclamations</h4>
+        <div class="entet-articl" >
+            <h2 class="titre-articl">Réclamations</h2>
             <p class="text-articl">Si vous avez un souci quelconque et que vous ne savez pas quoi faire, pas de panique ! Cliquez ici.</p>
         </div>
         
-            <div class="d-flex">
-                <a class="lien-articl">
+            <div class="row row-article">
+                <div class="col-sm-12 col-md-6 col-recl" >
+                    <a class="lien-articl">
                     <svg class="svg-articl" viewBox="0 0 23 28"><defs><style>.b77ae79e-60bd-4f77-a2ae-4fa1138c745b{isolation:isolate;}.ac8285dd-ee31-40b3-94f3-9cb1b66c31b2{fill:#afb1c4;}.ad0a6238-f17f-42ea-b670-ec3df9a14f4e{fill:#f8f7fb;}</style></defs><title>icon</title><g id="a2c31a02-526c-4ae8-a583-e92e4f22d381" data-name="Layer 2"><g id="be5874df-24b4-4a20-917e-98ee828710bd" data-name="Artboard 1" class="b77ae79e-60bd-4f77-a2ae-4fa1138c745b"><g id="b0e12b22-188b-402c-af02-ef30cee22dde" data-name="Rounded Rectangle 13 copie 5"><path class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" d="M13.91,9.09,14,0H2A2,2,0,0,0,0,2V26a2,2,0,0,0,2,2H21a2,2,0,0,0,2-2V9Z"/></g><g id="ec2bc15b-4051-4218-be43-6cc51a4cb4d4" data-name="Rectangle 75 copie 5"><polygon class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" points="17 0 17 7 23 7 17 0"/></g><g id="b63e48ae-da70-4d44-b0a0-4475976a5a2e" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,15H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g><g id="bf6561c8-fd1a-426b-9680-67851931e3ce" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,21H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g></g></g></svg>
-                    Spotfit- Inscription sur l'application</a>
-                <a class="lien-articl">
+                    Spotfit- Inscription sur l'application</a>  
+                </div>
+                <div class="col-sm-12 col-md-6 col-recl">
+                     <a class="lien-articl">
                     <svg class="svg-articl" viewBox="0 0 23 28"><defs><style>.b77ae79e-60bd-4f77-a2ae-4fa1138c745b{isolation:isolate;}.ac8285dd-ee31-40b3-94f3-9cb1b66c31b2{fill:#afb1c4;}.ad0a6238-f17f-42ea-b670-ec3df9a14f4e{fill:#f8f7fb;}</style></defs><title>icon</title><g id="a2c31a02-526c-4ae8-a583-e92e4f22d381" data-name="Layer 2"><g id="be5874df-24b4-4a20-917e-98ee828710bd" data-name="Artboard 1" class="b77ae79e-60bd-4f77-a2ae-4fa1138c745b"><g id="b0e12b22-188b-402c-af02-ef30cee22dde" data-name="Rounded Rectangle 13 copie 5"><path class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" d="M13.91,9.09,14,0H2A2,2,0,0,0,0,2V26a2,2,0,0,0,2,2H21a2,2,0,0,0,2-2V9Z"/></g><g id="ec2bc15b-4051-4218-be43-6cc51a4cb4d4" data-name="Rectangle 75 copie 5"><polygon class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" points="17 0 17 7 23 7 17 0"/></g><g id="b63e48ae-da70-4d44-b0a0-4475976a5a2e" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,15H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g><g id="bf6561c8-fd1a-426b-9680-67851931e3ce" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,21H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g></g></g></svg>
                     Réclamations</a>
-            </div>      
-            <div class="d-flex">
-                <a class="lien-articl">
+                </div>               
+                
+                <div class="col-sm-12 col-md-6 col-recl">
+                    <a class="lien-articl">
                     <svg class="svg-articl" viewBox="0 0 23 28"><defs><style>.b77ae79e-60bd-4f77-a2ae-4fa1138c745b{isolation:isolate;}.ac8285dd-ee31-40b3-94f3-9cb1b66c31b2{fill:#afb1c4;}.ad0a6238-f17f-42ea-b670-ec3df9a14f4e{fill:#f8f7fb;}</style></defs><title>icon</title><g id="a2c31a02-526c-4ae8-a583-e92e4f22d381" data-name="Layer 2"><g id="be5874df-24b4-4a20-917e-98ee828710bd" data-name="Artboard 1" class="b77ae79e-60bd-4f77-a2ae-4fa1138c745b"><g id="b0e12b22-188b-402c-af02-ef30cee22dde" data-name="Rounded Rectangle 13 copie 5"><path class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" d="M13.91,9.09,14,0H2A2,2,0,0,0,0,2V26a2,2,0,0,0,2,2H21a2,2,0,0,0,2-2V9Z"/></g><g id="ec2bc15b-4051-4218-be43-6cc51a4cb4d4" data-name="Rectangle 75 copie 5"><polygon class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" points="17 0 17 7 23 7 17 0"/></g><g id="b63e48ae-da70-4d44-b0a0-4475976a5a2e" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,15H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g><g id="bf6561c8-fd1a-426b-9680-67851931e3ce" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,21H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g></g></g></svg>
                     Proposer Spotfit à mon entreprise</a>
-                <a class="lien-articl">
+                </div>
+                <div class="col-sm-12 col-md-6 col-recl">
+                    <a class="lien-articl">
                     <svg class="svg-articl" viewBox="0 0 23 28"><defs><style>.b77ae79e-60bd-4f77-a2ae-4fa1138c745b{isolation:isolate;}.ac8285dd-ee31-40b3-94f3-9cb1b66c31b2{fill:#afb1c4;}.ad0a6238-f17f-42ea-b670-ec3df9a14f4e{fill:#f8f7fb;}</style></defs><title>icon</title><g id="a2c31a02-526c-4ae8-a583-e92e4f22d381" data-name="Layer 2"><g id="be5874df-24b4-4a20-917e-98ee828710bd" data-name="Artboard 1" class="b77ae79e-60bd-4f77-a2ae-4fa1138c745b"><g id="b0e12b22-188b-402c-af02-ef30cee22dde" data-name="Rounded Rectangle 13 copie 5"><path class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" d="M13.91,9.09,14,0H2A2,2,0,0,0,0,2V26a2,2,0,0,0,2,2H21a2,2,0,0,0,2-2V9Z"/></g><g id="ec2bc15b-4051-4218-be43-6cc51a4cb4d4" data-name="Rectangle 75 copie 5"><polygon class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" points="17 0 17 7 23 7 17 0"/></g><g id="b63e48ae-da70-4d44-b0a0-4475976a5a2e" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,15H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g><g id="bf6561c8-fd1a-426b-9680-67851931e3ce" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,21H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g></g></g></svg>
                     Contacter le support client</a>
+                </div>  
+                <div class="col-sm-12 col-md-6 col-recl">
+                    <a class="lien-articl">
+                    <svg class="svg-articl" viewBox="0 0 23 28"><defs><style>.b77ae79e-60bd-4f77-a2ae-4fa1138c745b{isolation:isolate;}.ac8285dd-ee31-40b3-94f3-9cb1b66c31b2{fill:#afb1c4;}.ad0a6238-f17f-42ea-b670-ec3df9a14f4e{fill:#f8f7fb;}</style></defs><title>icon</title><g id="a2c31a02-526c-4ae8-a583-e92e4f22d381" data-name="Layer 2"><g id="be5874df-24b4-4a20-917e-98ee828710bd" data-name="Artboard 1" class="b77ae79e-60bd-4f77-a2ae-4fa1138c745b"><g id="b0e12b22-188b-402c-af02-ef30cee22dde" data-name="Rounded Rectangle 13 copie 5"><path class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" d="M13.91,9.09,14,0H2A2,2,0,0,0,0,2V26a2,2,0,0,0,2,2H21a2,2,0,0,0,2-2V9Z"/></g><g id="ec2bc15b-4051-4218-be43-6cc51a4cb4d4" data-name="Rectangle 75 copie 5"><polygon class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" points="17 0 17 7 23 7 17 0"/></g><g id="b63e48ae-da70-4d44-b0a0-4475976a5a2e" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,15H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g><g id="bf6561c8-fd1a-426b-9680-67851931e3ce" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,21H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g></g></g></svg>
+                    Lorem ipsum dolor sit ametconsect</a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-recl">
+                    <a class="lien-articl">
+                    <svg class="svg-articl" viewBox="0 0 23 28"><defs><style>.b77ae79e-60bd-4f77-a2ae-4fa1138c745b{isolation:isolate;}.ac8285dd-ee31-40b3-94f3-9cb1b66c31b2{fill:#afb1c4;}.ad0a6238-f17f-42ea-b670-ec3df9a14f4e{fill:#f8f7fb;}</style></defs><title>icon</title><g id="a2c31a02-526c-4ae8-a583-e92e4f22d381" data-name="Layer 2"><g id="be5874df-24b4-4a20-917e-98ee828710bd" data-name="Artboard 1" class="b77ae79e-60bd-4f77-a2ae-4fa1138c745b"><g id="b0e12b22-188b-402c-af02-ef30cee22dde" data-name="Rounded Rectangle 13 copie 5"><path class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" d="M13.91,9.09,14,0H2A2,2,0,0,0,0,2V26a2,2,0,0,0,2,2H21a2,2,0,0,0,2-2V9Z"/></g><g id="ec2bc15b-4051-4218-be43-6cc51a4cb4d4" data-name="Rectangle 75 copie 5"><polygon class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" points="17 0 17 7 23 7 17 0"/></g><g id="b63e48ae-da70-4d44-b0a0-4475976a5a2e" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,15H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g><g id="bf6561c8-fd1a-426b-9680-67851931e3ce" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,21H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g></g></g></svg>
+                    Lorem ipsum dolor sit ametconsect</a>
+                </div>    
+                <div class="col-sm-12 col-md-6 col-recl">
+                    <a class="lien-articl">
+                    <svg class="svg-articl" viewBox="0 0 23 28"><defs><style>.b77ae79e-60bd-4f77-a2ae-4fa1138c745b{isolation:isolate;}.ac8285dd-ee31-40b3-94f3-9cb1b66c31b2{fill:#afb1c4;}.ad0a6238-f17f-42ea-b670-ec3df9a14f4e{fill:#f8f7fb;}</style></defs><title>icon</title><g id="a2c31a02-526c-4ae8-a583-e92e4f22d381" data-name="Layer 2"><g id="be5874df-24b4-4a20-917e-98ee828710bd" data-name="Artboard 1" class="b77ae79e-60bd-4f77-a2ae-4fa1138c745b"><g id="b0e12b22-188b-402c-af02-ef30cee22dde" data-name="Rounded Rectangle 13 copie 5"><path class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" d="M13.91,9.09,14,0H2A2,2,0,0,0,0,2V26a2,2,0,0,0,2,2H21a2,2,0,0,0,2-2V9Z"/></g><g id="ec2bc15b-4051-4218-be43-6cc51a4cb4d4" data-name="Rectangle 75 copie 5"><polygon class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" points="17 0 17 7 23 7 17 0"/></g><g id="b63e48ae-da70-4d44-b0a0-4475976a5a2e" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,15H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g><g id="bf6561c8-fd1a-426b-9680-67851931e3ce" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,21H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g></g></g></svg>
+                    Lorem ipsum dolor sit ametconsect</a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-recl">
+                    <a class="lien-articl">
+                    <svg class="svg-articl" viewBox="0 0 23 28"><defs><style>.b77ae79e-60bd-4f77-a2ae-4fa1138c745b{isolation:isolate;}.ac8285dd-ee31-40b3-94f3-9cb1b66c31b2{fill:#afb1c4;}.ad0a6238-f17f-42ea-b670-ec3df9a14f4e{fill:#f8f7fb;}</style></defs><title>icon</title><g id="a2c31a02-526c-4ae8-a583-e92e4f22d381" data-name="Layer 2"><g id="be5874df-24b4-4a20-917e-98ee828710bd" data-name="Artboard 1" class="b77ae79e-60bd-4f77-a2ae-4fa1138c745b"><g id="b0e12b22-188b-402c-af02-ef30cee22dde" data-name="Rounded Rectangle 13 copie 5"><path class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" d="M13.91,9.09,14,0H2A2,2,0,0,0,0,2V26a2,2,0,0,0,2,2H21a2,2,0,0,0,2-2V9Z"/></g><g id="ec2bc15b-4051-4218-be43-6cc51a4cb4d4" data-name="Rectangle 75 copie 5"><polygon class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" points="17 0 17 7 23 7 17 0"/></g><g id="b63e48ae-da70-4d44-b0a0-4475976a5a2e" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,15H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g><g id="bf6561c8-fd1a-426b-9680-67851931e3ce" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,21H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g></g></g></svg>
+                    Lorem ipsum dolor sit ametconsect</a>
+                </div>    
             </div>  
-            <div class="d-flex">
-                <a class="lien-articl">
-                    <svg class="svg-articl" viewBox="0 0 23 28"><defs><style>.b77ae79e-60bd-4f77-a2ae-4fa1138c745b{isolation:isolate;}.ac8285dd-ee31-40b3-94f3-9cb1b66c31b2{fill:#afb1c4;}.ad0a6238-f17f-42ea-b670-ec3df9a14f4e{fill:#f8f7fb;}</style></defs><title>icon</title><g id="a2c31a02-526c-4ae8-a583-e92e4f22d381" data-name="Layer 2"><g id="be5874df-24b4-4a20-917e-98ee828710bd" data-name="Artboard 1" class="b77ae79e-60bd-4f77-a2ae-4fa1138c745b"><g id="b0e12b22-188b-402c-af02-ef30cee22dde" data-name="Rounded Rectangle 13 copie 5"><path class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" d="M13.91,9.09,14,0H2A2,2,0,0,0,0,2V26a2,2,0,0,0,2,2H21a2,2,0,0,0,2-2V9Z"/></g><g id="ec2bc15b-4051-4218-be43-6cc51a4cb4d4" data-name="Rectangle 75 copie 5"><polygon class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" points="17 0 17 7 23 7 17 0"/></g><g id="b63e48ae-da70-4d44-b0a0-4475976a5a2e" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,15H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g><g id="bf6561c8-fd1a-426b-9680-67851931e3ce" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,21H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g></g></g></svg>
-                    Lorem ipsum dolor sit ametconsect</a>
-                <a class="lien-articl">
-                    <svg class="svg-articl" viewBox="0 0 23 28"><defs><style>.b77ae79e-60bd-4f77-a2ae-4fa1138c745b{isolation:isolate;}.ac8285dd-ee31-40b3-94f3-9cb1b66c31b2{fill:#afb1c4;}.ad0a6238-f17f-42ea-b670-ec3df9a14f4e{fill:#f8f7fb;}</style></defs><title>icon</title><g id="a2c31a02-526c-4ae8-a583-e92e4f22d381" data-name="Layer 2"><g id="be5874df-24b4-4a20-917e-98ee828710bd" data-name="Artboard 1" class="b77ae79e-60bd-4f77-a2ae-4fa1138c745b"><g id="b0e12b22-188b-402c-af02-ef30cee22dde" data-name="Rounded Rectangle 13 copie 5"><path class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" d="M13.91,9.09,14,0H2A2,2,0,0,0,0,2V26a2,2,0,0,0,2,2H21a2,2,0,0,0,2-2V9Z"/></g><g id="ec2bc15b-4051-4218-be43-6cc51a4cb4d4" data-name="Rectangle 75 copie 5"><polygon class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" points="17 0 17 7 23 7 17 0"/></g><g id="b63e48ae-da70-4d44-b0a0-4475976a5a2e" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,15H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g><g id="bf6561c8-fd1a-426b-9680-67851931e3ce" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,21H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g></g></g></svg>
-                    Lorem ipsum dolor sit ametconsect</a>
-            </div>    
-            <div class="d-flex">
-                <a class="lien-articl">
-                    <svg class="svg-articl" viewBox="0 0 23 28"><defs><style>.b77ae79e-60bd-4f77-a2ae-4fa1138c745b{isolation:isolate;}.ac8285dd-ee31-40b3-94f3-9cb1b66c31b2{fill:#afb1c4;}.ad0a6238-f17f-42ea-b670-ec3df9a14f4e{fill:#f8f7fb;}</style></defs><title>icon</title><g id="a2c31a02-526c-4ae8-a583-e92e4f22d381" data-name="Layer 2"><g id="be5874df-24b4-4a20-917e-98ee828710bd" data-name="Artboard 1" class="b77ae79e-60bd-4f77-a2ae-4fa1138c745b"><g id="b0e12b22-188b-402c-af02-ef30cee22dde" data-name="Rounded Rectangle 13 copie 5"><path class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" d="M13.91,9.09,14,0H2A2,2,0,0,0,0,2V26a2,2,0,0,0,2,2H21a2,2,0,0,0,2-2V9Z"/></g><g id="ec2bc15b-4051-4218-be43-6cc51a4cb4d4" data-name="Rectangle 75 copie 5"><polygon class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" points="17 0 17 7 23 7 17 0"/></g><g id="b63e48ae-da70-4d44-b0a0-4475976a5a2e" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,15H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g><g id="bf6561c8-fd1a-426b-9680-67851931e3ce" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,21H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g></g></g></svg>
-                    Lorem ipsum dolor sit ametconsect</a>
-                <a class="lien-articl">
-                    <svg class="svg-articl" viewBox="0 0 23 28"><defs><style>.b77ae79e-60bd-4f77-a2ae-4fa1138c745b{isolation:isolate;}.ac8285dd-ee31-40b3-94f3-9cb1b66c31b2{fill:#afb1c4;}.ad0a6238-f17f-42ea-b670-ec3df9a14f4e{fill:#f8f7fb;}</style></defs><title>icon</title><g id="a2c31a02-526c-4ae8-a583-e92e4f22d381" data-name="Layer 2"><g id="be5874df-24b4-4a20-917e-98ee828710bd" data-name="Artboard 1" class="b77ae79e-60bd-4f77-a2ae-4fa1138c745b"><g id="b0e12b22-188b-402c-af02-ef30cee22dde" data-name="Rounded Rectangle 13 copie 5"><path class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" d="M13.91,9.09,14,0H2A2,2,0,0,0,0,2V26a2,2,0,0,0,2,2H21a2,2,0,0,0,2-2V9Z"/></g><g id="ec2bc15b-4051-4218-be43-6cc51a4cb4d4" data-name="Rectangle 75 copie 5"><polygon class="ac8285dd-ee31-40b3-94f3-9cb1b66c31b2" points="17 0 17 7 23 7 17 0"/></g><g id="b63e48ae-da70-4d44-b0a0-4475976a5a2e" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,15H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g><g id="bf6561c8-fd1a-426b-9680-67851931e3ce" data-name="Rounded Rectangle 14 copie 6"><path class="ad0a6238-f17f-42ea-b670-ec3df9a14f4e" d="M18,21H5a1,1,0,0,0,0,2H18a1,1,0,0,0,0-2Z"/></g></g></g></svg>
-                    Lorem ipsum dolor sit ametconsect</a>
-            </div>    
-        
     </section>
     <section class="forum-question">
         <div class="container forum-container">
-            <div class="row">
-                <div class="col-lg-6 m-auto">
-                    <img src="../../assets/help-center/illustration2.svg" alt="" class="illustration2">
+            <div class="row row-forum">
+                <div class="col-md-6 m-auto">
+                    <div class="img-faq">
+                        <img src="../../assets/help-center/illustration2.svg" alt="" class="illustration2">
+                    </div>                    
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <div class="container-question">
                         <span class="span-forum">Still have question ?</span>
                         <h2 class="titre-forum">Foire Aux Questions (FAQ)</h2>
                         <div class="forum-blck">
                             <div class="d-flex grp-question" data-target="#question" data-toggle="collapse" aria-label="Toggle navigation" 
-                            aria-controls="question" aria-expanded="true">
+                            aria-controls="question" aria-expanded="false">
                                 <h6 class="question"> A- Accéder à l’application </h6>
                                 <div class="icon">
                                     <span class="icon-faq">+</span>
                                 </div>
                             </div>                            
-                            <div id="question">
+                            <div id="question" class="collapse">
                                 <p class="reponce">Faire du sport n’a jamais été aussi accessible.</p>
                                 <p class="reponce">1- Téléchargez l’application Spotfit pour Android ou iOS (Lien + QR Code) puis lancez-la.</p>
                                 <p class="reponce">2- Inscrivez-vous avec votre adresse email ou votre compte Google, Facebook ou Twitter 
@@ -120,140 +131,164 @@
                         <div class="forum-blck">
                             <div class="d-flex grp-question collapsed" data-target="#question3" data-toggle="collapse" aria-label="Toggle navigation" 
                             aria-controls="question3" aria-expanded="true">
-                                <h6 class="question3">B- Comment utiliser l’application</h6>
+                                <h6 class="question">B- Comment utiliser l’application</h6>
                                 <div class="icon">
                                     <span class="icon-faq">+</span>
                                 </div>
                             </div>                           
-                            <div  id="question3">
-                               <p class="reponce collapse" id="question3">1- Une fois connecté sur votre compte, vous serez directement redirigé vers l’écran d'accueil :
+                            <div  id="question3" class="collapse">
+                               <p class="reponce">1- Une fois connecté sur votre compte, vous serez directement redirigé vers l’écran d'accueil :
                                     la carte interactive où toutes vos salles préférées y figurent</p>    
-                               <p class="reponce collapse" id="question3"> 2- Vous pouvez choisir entre :</p> 
-                                   <p class="reponce collapse" id="question3">                                       
+                               <p class="reponce"> 2- Vous pouvez choisir entre :</p> 
+                                   <p class="reponce">                                       
                                        taper la localisation d’une salle de votre choix, ou</p> 
-                                   <p class="reponce collapse" id="question3">                                       
+                                   <p class="reponce">                                       
                                        appliquer des filtres de recherche pour plus de précision (Activité, localisation, budget, distance, …),
                                    puis tapez ‘‘Rechercher’’</p> 
-                               <p class="reponce collapse" id="question3">3- Après avoir trouvé la salle qui vous est adéquate, cliquez sur la bannière qui y 
+                               <p class="reponce">3- Après avoir trouvé la salle qui vous est adéquate, cliquez sur la bannière qui y 
                                    correspond afin d’accéder à la page descriptive de la salle</p>
-                               <p class="reponce collapse" id="question3">4- Explorez l’ensemble des détails fournis par la salle de sport (Photos, activités disponibles, installations,
+                               <p class="reponce">4- Explorez l’ensemble des détails fournis par la salle de sport (Photos, activités disponibles, installations,
                                 équipements, feedback, …) puis choisissez la formule de Pass qui vous convient le mieux 
                                 (Daypass, Monthpass, Yearpass ? Simple ou Partout ?*)</p>
-                               <p class="reponce collapse" id="question3">5- Accédez à votre panier, choisissez la date d’activation de votre Pass et procédez au paiement par
+                               <p class="reponce">5- Accédez à votre panier, choisissez la date d’activation de votre Pass et procédez au paiement par
                                 la méthode de paiement qui vous arrange le plus </p> 
-                               <p class="reponce collapse" id="question3"> 6- Prenez en photo les documents requis afin de pouvoir accéder à la salle de votre choix
+                               <p class="reponce"> 6- Prenez en photo les documents requis afin de pouvoir accéder à la salle de votre choix
                                  (Cette opération n’est suscitée qu’une seule fois durant votre expérience) </p> 
-                               <p class="reponce collapse" id="question3"> 7- Votre Pass deviendra automatiquement actif à la date d’activation que vous avez renseigné </p> 
-                               <p class="reponce collapse" id="question3">8- Dirigez-vous vers la salle choisie, cliquez sur le bouton Code QR puis montrez 
+                               <p class="reponce"> 7- Votre Pass deviendra automatiquement actif à la date d’activation que vous avez renseigné </p> 
+                               <p class="reponce">8- Dirigez-vous vers la salle choisie, cliquez sur le bouton Code QR puis montrez 
                                    votre Code QR à l’accueil de la salle </p> 
-                               <p class="reponce collapse" id="question3">9- Bon entrainement !</p>
-                               <p class="reponce collapse" id="question3">*Afin de mieux comprendre ces formules, consultez le guide du Pass. 
-                                   (www.spotfit.ma/pricing)</p> 
+                               <p class="reponce">9- Bon entrainement !</p>
+                               <p class="reponce">*Afin de mieux comprendre ces formules, consultez <b>le guide du Pass. 
+                                (www.spotfit.ma/pricing)</b> </p> 
                             </div>                                         
                             
                         </div>
                         <div class="forum-blck">
                             <div class="d-flex grp-question collapsed" data-target="#question4" data-toggle="collapse" aria-label="Toggle navigation" 
                             aria-controls="question4" aria-expanded="true">
-                                <h6 class="question4">Comment puis-je vous contacter ?</h6>
+                                <h6 class="question">Comment puis-je vous contacter ?</h6>
                                 <div class="icon">
                                     <span class="icon-faq">+</span>
                                 </div>
                             </div> 
-                                
-                                <p class="reponce collapse"id="question4" > Quelque soit votre besoin ou votre question, nous sommes là pour vous aider.</p>
-                                <p class="reponce collapse" id="question4"> Notre Service Après-Ventes est disponible 24h/24, 7j/7 soit par le biais de <a href="">help@spotfit.ma</a> ou discutez avec nous à l’aide de l’icône LiveChat sur le site Web.</p>
-                                <p class="reponce collapse" id="question4">Quelque soit votre lien avec Spotfit, nous nous engageons à répondre à chacun de vous, sans délais. </p> 
-                                                         
+                            <div class="collapse" id="question4">
+                                <p class="reponce " > Quelque soit votre besoin ou votre question, nous sommes là pour vous aider.</p>
+                                <p class="reponce " > Notre Service Après-Ventes est disponible 24h/24, 7j/7 soit par le biais de <a href="">help@spotfit.ma</a> ou discutez avec nous à l’aide de l’icône LiveChat sur le site Web.</p>
+                                <p class="reponce " >Quelque soit votre lien avec Spotfit, nous nous engageons à répondre à chacun de vous, sans délais. </p>                                    
+                            </div>  
+                                                    
                         </div> 
                         <div class="forum-blck">
                             <div class="d-flex grp-question collapsed" data-target="#question5" data-toggle="collapse" aria-label="Toggle navigation" 
                             aria-controls="question5" aria-expanded="true">
-                                <h6 class="question5">Quels types de Pass vendez-vous?</h6>
+                                <h6 class="question">Quels types de Pass vendez-vous?</h6>
                                 <div class="icon">
                                     <span class="icon-faq">+</span>
                                 </div>
                             </div>                             
-                            <p class="reponce collapse" id="question5">
-                                Un Pass est votre moyen d’accès en sessions aux différentes salles de sport concernées par la nature du Pass choisi. 
-                                Nous sommes ici pour vous aider à bien faire fonctionner votre vie. Nous vous proposons donc différents types de Pass. Où que vous soyez et quelles que soient vos attentes, nous aurons la bonne formule de Pass pour vous.
-                                *Afin de mieux comprendre ces formules, consultez le guide du Pass. (www.spotfit.ma/pricing)
+                            <div class="collapse" id="question5">
+                                <p class="reponce "> 
+                                    Un Pass est votre moyen d’accès en sessions aux différentes salles de sport concernées par la nature
+                                    du Pass choisi.
+                                </p>
+                                <p class="reponce ">     
+                                    Nous sommes ici pour vous aider à bien faire fonctionner votre vie. Nous vous proposons donc différents types de Pass. Où que vous soyez et quelles que soient vos attentes,
+                                    nous aurons la bonne formule de Pass pour vous.
+                                </p>
+                                <p class="reponce ">  
+                                    *Afin de mieux comprendre ces formules, consultez <b>le guide du Pass. (www.spotfit.ma/pricing)</b> 
+                                </p>
+                                <p class="reponce "> 
+                                    Nos Pass ont été répartis par :
+                                </p>
 
-                                Nos Pass ont été répartis par :
-                                Classe (Silver, Gold, Platinum) 
-                                Types (DayPass/par jour, MonthPass/par mois, YearPass/par an)
-                                Régimes (régime Simple -offre est limitée au réseau de salles de fitness défini par l’établissement ______ régime Partout - accès à toutes les salles de Fitness d’une Classe donnée (Silver C, Gold B + C, Platinum A + B + C)
+                                <p class="reponce "> 
+                                    Classe (Silver, Gold, Platinum) 
+                                </p>
+                                <p class="reponce "> 
+                                    Types (DayPass/par jour, MonthPass/par mois, YearPass/par an)
+                                </p>
+                                <p class="reponce "> 
+                                    Régimes (régime Simple -offre est limitée au réseau de salles de fitness défini 
+                                    par l’établissement ______ régime Partout - accès à toutes les salles de Fitness 
+                                    d’une Classe donnée (Silver C, Gold B + C, Platinum A + B + C)
+                                </p>
 
-                                ''TABLEAU DES PRIX''
-                            </p>
+                                <p class="reponce "> ''TABLEAU DES PRIX''</p>
+                            </div>
                         </div>  
                         <div class="forum-blck">
                             <div class="d-flex grp-question collapsed" data-target="#question6" data-toggle="collapse" aria-label="Toggle navigation" 
                             aria-controls="question6" aria-expanded="true">
-                                <h6 class="question6">Qu’est-ce qu’un DayPass ?</h6>
+                                <h6 class="question">Qu’est-ce qu’un DayPass ?</h6>
                                 <div class="icon">
                                     <span class="icon-faq">+</span>
                                 </div>
                             </div>                             
-                            <p class="reponce collapse" id="question6">
-                                DayPass (Simple)
-                                24 heures d'accès autorisé à une seule salle de fitness (et son réseau si permis) choisi préalablement
-                                par le client.
-                            </p>
+                            <div class="collapse" id="question6">
+                                <p class="reponce "> DayPass (Simple) </p>
+                                <p class="reponce "> 24 heures d'accès autorisé à une seule salle de fitness (et son réseau si permis) choisi préalablement
+                                par le client.</p>
+                            </div>
                         </div> 
                         <div class="forum-blck">
                             <div class="d-flex grp-question collapsed" data-target="#question7" data-toggle="collapse" aria-label="Toggle navigation" 
                             aria-controls="question7" aria-expanded="true">
-                                <h6 class="question7">Qu’est-ce qu’un MonthPass ?</h6>
+                                <h6 class="question">Qu’est-ce qu’un MonthPass ?</h6>
                                 <div class="icon">
                                     <span class="icon-faq">+</span>
                                 </div>
                             </div>                             
-                            <p class="reponce collapse" id="question7">
-                                Il y en a deux, selon deux régimes différents :
-                            1- MonthPass (Simple)
-                            30-31 jours d'accès autorisé à une seule salle de fitness (et son réseau si permis) choisi préalablement par le client.
-                            2- MonthPass (Partout) - Offre phare de Spotfit
-                            30-31 jours d'accès autorisé à toutes les salles de Classe Silver, ou Gold, ou Platinum.
-                            N.B : le MonthPass Platinum vous donne accès aussi au Gold, le MonthPass Gold vous donne accès même à la classe Silver, et ainsi de suite.
-                            (Silver -> C , Gold -> B + C , Platinum -> A + B + C ).
-
-                            </p>
+                                <div class="collapse" id="question7">
+                                <p class="reponce"> Il y en a deux, selon deux régimes différents : </p>
+                                <p class="reponce">1- MonthPass (Simple) </p>
+                                <p class="reponce">30-31 jours d'accès autorisé à une seule salle de fitness (et son réseau si permis) choisi
+                                    préalablement par le client.</p>
+                                <p class="reponce">2- MonthPass (Partout) - Offre phare de Spotfit </p>
+                                <p class="reponce">30-31 jours d'accès autorisé à toutes les salles de Classe Silver, ou Gold, ou Platinum.</p>
+                                <p class="reponce">N.B : le MonthPass Platinum vous donne accès aussi au Gold, le MonthPass Gold
+                                    vous donne accès même à la classe Silver, et ainsi de suite.</p>
+                                <p class="reponce">(Silver -> C , Gold -> B + C , Platinum -> A + B + C ).</p>
+                            </div>
                         </div> 
                         <div class="forum-blck">
                             <div class="d-flex grp-question collapsed" data-target="#question2" data-toggle="collapse" aria-label="Toggle navigation" 
                             aria-controls="question2" aria-expanded="true">
-                                <h6 class="question2">Qu’est-ce qu’un YearPass ?</h6>
+                                <h6 class="question">Qu’est-ce qu’un YearPass ?</h6>
                                 <div class="icon">
                                     <span class="icon-faq">+</span>
                                 </div>
                             </div>                             
-                            <p class="reponce collapse" id="question2">
-                                YearPass (Simple)
-                                365 jours d'accès autorisé à une seule salle de fitness (et son réseau si permis) choisi préalablement
-                                par le client.
-                            </p>
+                            <div class=" collapse" id="question2">
+                                <p class="reponce">YearPass (Simple)</p>
+                                <p class="reponce">
+                                    365 jours d'accès autorisé à une seule salle de fitness (et son réseau si permis) choisi préalablement
+                                    par le client.
+                                </p>
+                            </div>
                         </div>  
                         <div class="forum-blck">
                             <div class="d-flex grp-question collapsed" data-target="#question8" data-toggle="collapse" aria-label="Toggle navigation" 
                             aria-controls="question8" aria-expanded="true">
-                                <h6 class="question8">Quel équipement est disponible grâce au Pass que j'ai choisi ?</h6>
+                                <h6 class="question">Quel équipement est disponible grâce au Pass que j'ai choisi ?</h6>
                                 <div class="icon">
                                     <span class="icon-faq">+</span>
                                 </div>
                             </div>                             
-                            <p class="reponce collapse" id="question8">
-                                L’équipement et les installations varient d'une salle de sport à une autre. 
-                                Si vous souhaitez vérifier ce que vous pouvez utiliser à l’endroit choisi avec votre Pass, 
+                            <div class="reponce collapse" id="question8">
+                                <p class="reponce">L’équipement et les installations varient d'une salle de sport à une autre. </p>
+                                <p class="reponce">
+                                    Si vous souhaitez vérifier ce que vous pouvez utiliser à l’endroit choisi avec votre Pass, 
                                 rendez-vous sur la page Spotfit de cette salle de sport. Vous pourrez alors avoir un aperçu clair 
                                 de ce que cette salle de sport procure, et à quelle classe elle appartient avant de vous y engager
                                 en achetant le Pass requis pour y accéder.
-                            </p>
+                                </p>                                
+                            </div>
                         </div>   
                         <div class="forum-blck">
                             <div class="d-flex grp-question collapsed" data-target="#question9" data-toggle="collapse" aria-label="Toggle navigation" 
                             aria-controls="question9" aria-expanded="true">
-                                <h6 class="question9">Quand est-ce qu’un Pass expire ?</h6>
+                                <h6 class="question">Quand est-ce qu’un Pass expire ?</h6>
                                 <div class="icon">
                                     <span class="icon-faq">+</span>
                                 </div>
@@ -266,7 +301,7 @@
                         <div class="forum-blck">
                             <div class="d-flex grp-question collapsed" data-target="#question10" data-toggle="collapse" aria-label="Toggle navigation" 
                             aria-controls="question10" aria-expanded="true">
-                                <h6 class="question10">Comment est-ce que j’accède à une salle de sport ?</h6>
+                                <h6 class="question">Comment est-ce que j’accède à une salle de sport ?</h6>
                                 <div class="icon">
                                     <span class="icon-faq">+</span>
                                 </div>
@@ -280,7 +315,7 @@
                         <div class="forum-blck">
                             <div class="d-flex grp-question collapsed" data-target="#question11" data-toggle="collapse" aria-label="Toggle navigation" 
                             aria-controls="question11" aria-expanded="true">
-                                <h6 class="question11">Puis-je prolonger la durée de validité ou annuler mon Pass?</h6>
+                                <h6 class="question">Puis-je prolonger la durée de validité ou annuler mon Pass?</h6>
                                 <div class="icon">
                                     <span class="icon-faq">+</span>
                                 </div>
@@ -293,56 +328,55 @@
                         <div class="forum-blck">
                             <div class="d-flex grp-question collapsed" data-target="#question12" data-toggle="collapse" aria-label="Toggle navigation" 
                             aria-controls="question12" aria-expanded="true">
-                                <h6 class="question12">Les enfants peuvent-ils utiliser Spotfit ?</h6>
+                                <h6 class="question">Les enfants peuvent-ils utiliser Spotfit ?</h6>
                                 <div class="icon">
                                     <span class="icon-faq">+</span>
                                 </div>
                             </div>                             
                             <p class="reponce collapse" id="question12">
-                                SALAH POUR CGU
-                                DEVS POUR SOUS-COMPTE ENFANT 
+                                <b>SALAH POUR CGU DEVS POUR SOUS-COMPTE ENFANT </b> 
                             </p>
                         </div> 
                         <div class="forum-blck">
                             <div class="d-flex grp-question collapsed" data-target="#question13" data-toggle="collapse" aria-label="Toggle navigation" 
                             aria-controls="question13" aria-expanded="true">
-                                <h6 class="question13">Est-ce que je peux laisser un avis sur mon expérience ?</h6>
+                                <h6 class="question">Est-ce que je peux laisser un avis sur mon expérience ?</h6>
                                 <div class="icon">
                                     <span class="icon-faq">+</span>
                                 </div>
                             </div>                             
                             <p class="reponce collapse" id="question13">
                                 Vous pourrez laisser des avis sur la salle de sport visitée accompagné d’un commentaire pour chaque visite
-                                effectuée avec un Pass Spotfit. A un moment donné, vous bénéficierez d’une récompense, et c’est cadeau de
+                                effectuée avec un Pass Spotfit. 
+                                A un moment donné, vous bénéficierez d’une récompense, et c’est cadeau de
                                 l’équipe Spotfit !
                             </p>
                         </div> 
                         <div class="forum-blck">
-                            <div  id="question_1" class="d-flex grp-question collapsed" data-target="#question1" data-toggle="collapse" aria-label="Toggle navigation" 
-                            aria-controls="question1" aria-expanded="true">
-                                <h6 class="question1">Comment est-ce que je peux parrainer quelqu’un ?</h6>
+                            <div  id="question_1" class="d-flex grp-question collapsed" href="#question1"
+                                     data-toggle="collapse" aria-controls="question1" aria-expanded="false">
+                                <h6 class="question">Comment est-ce que je peux parrainer quelqu’un ?</h6>
                                 <div class="icon">
                                     <span class="icon-faq">+</span>
                                 </div>
                             </div>                             
-                            <div id="question1" aria-labelledby="question_1" >
-                            <p class="reponce collapse"> 
-                                Nous adorons que vous parliez de Spotfit. Nous vous avons donc créé un programme de parrainage pour chaque
-                                personne que vous invitez sur Spotfit.
-                            </p>
-                            <p class="reponce collapse"> 
-                                Faites participer vos amis, votre famille et vos collègues et recevez une part de 5% sur CHAQUE Pass 
-                                qu'ils utilisent.
-                            </p>
-                            <p class="reponce collapse"> 
-                                Pour parrainer un autre utilisateur, allez dans « Tableau de bord » > « Référez un utilisateur »,
-                                puis envoyez-lui le lien d'invitation que vous y trouverez, ou partagez-le directement par email ou via
-                                les réseaux sociaux en cliquant sur « Partager ».
-                            </p>
-                            <p class="reponce collapse"> 
-                                Une fois qu'un nouvel utilisateur s'inscrit avec votre lien d'invitation, vous commencerez à remplir
-                                votre solde Spotfit automatiquement à chaque fois que l’utilisateur que vous avez parrainé utilisera son Pass.
-                            </p>
+                            <div class="collapse" id="question1" >
+                                
+                                    <p class="reponce"> 
+                                        Nous adorons que vous parliez de Spotfit. Nous vous avons donc créé un programme de parrainage pour chaque
+                                        personne que vous invitez sur Spotfit. </p>
+                                    <p class="reponce"> 
+                                        Faites participer vos amis, votre famille et vos collègues et recevez une part de 5% sur CHAQUE Pass 
+                                        qu'ils utilisent. </p>
+                                    <p class="reponce"> 
+                                        Pour parrainer un autre utilisateur, allez dans « Tableau de bord » > « Référez un utilisateur »,
+                                        puis envoyez-lui le lien d'invitation que vous y trouverez, ou partagez-le directement par email ou via
+                                        les réseaux sociaux en cliquant sur « Partager ».</p>
+                                    <p class="reponce"> 
+                                        Une fois qu'un nouvel utilisateur s'inscrit avec votre lien d'invitation, vous commencerez à remplir
+                                        votre solde Spotfit automatiquement à chaque fois que l’utilisateur que vous avez parrainé utilisera son Pass.
+                                    </p>
+                                                             
                             </div>
                         </div> 
                     </div>                                 
@@ -350,8 +384,10 @@
             </div>
         </div>        
     </section>
+</section>    
+   
     <section class="frm-contact">
-        <app-form-contact></app-form-contact>
+        <app-contact-form></app-contact-form>
     </section>
 </section>
 

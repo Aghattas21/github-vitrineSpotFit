@@ -14,21 +14,22 @@ $clr-prg : #8c8fa9 ;
 
 // ==================== CSS En tête ===================
 .help-s1{
-    padding: 12rem 0px 4rem;
+    padding: 15rem 0px 4rem;
     background-image: linear-gradient(0deg, #FFFFFF 0%, #f6f5f8 100%);
 }
 
 .titre-help{
     color: $clr-tlt;
     font-family: $roroto;
-    font-weight: bold;
-    font-size: 35px;
-    padding: 1.5rem; 
-    font-size: 3vw;  
+    font-weight: bold;    
+    padding: 2rem 2rem 3rem; 
+    font-size: 3.3vw;  
+    transform: scaleY(1.1);
+    letter-spacing: 1px;
 }
 
 .form-rechercher{
-    width: 49%;
+    width: 47%;
     margin: auto;
     padding: 4px 4px;
     box-shadow: 0px 21px 29.5px rgba(4,8,79,0.08);   
@@ -36,7 +37,8 @@ $clr-prg : #8c8fa9 ;
 }
 .zn-tx{
     width: 70%;
-    padding-left: 41px;
+    padding-left: 2rem;
+    outline: none;
 }
 .zn-tx::-webkit-input-placeholder {
     color: $clr-prg ;
@@ -58,13 +60,13 @@ $clr-prg : #8c8fa9 ;
     font-weight: 600;
 }
 .blck-prg-entet{
-    padding: 3rem 3rem 0;
+    padding: 6rem 1rem 1rem;
 }
 .paragraphe-entet{
    
-    width: 67%;
+    width: 55%;
     text-align: center;
-    margin: 16px auto 0;
+    margin: 0 auto ;
     letter-spacing: 0.5px;
     color: $clr-prg ;
     font-weight: 400;
@@ -77,15 +79,18 @@ $clr-prg : #8c8fa9 ;
 // =================== css bull ======================
 
 .bull-info{
-    padding: 2rem 3rem;
-    margin-bottom: 3.1rem;
+    padding: 0rem 2rem 6rem ;
+    margin-bottom: 3.2rem;
+    justify-content: center;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
-.blck-info{   
-    border-radius: 6px;
-    width: 22.5%;
+.blck-info{      
+    max-width: 22.5%;
     border: 1.4px solid #f2f1f6;
     border-radius: 6px;
-    padding: 3rem 1rem 1.5rem 2rem;
+    padding: 4rem 1rem 3rem 4rem;
+    margin: 0 11px;
 }
 
 .titre-bull{
@@ -94,6 +99,7 @@ $clr-prg : #8c8fa9 ;
     font-family: $open-sans;
     font-weight: 600;
     font-size: 17px;
+    padding-bottom: 1rem;
 }
 .text-bull{
     letter-spacing: 0.5px;
@@ -112,17 +118,17 @@ $clr-prg : #8c8fa9 ;
 // ================= css Article =======================
 
 .article{
-    margin: 1rem 6rem;
-    padding: 4rem 0rem 4rem 4rem;
+    margin: 1rem 8rem 4rem;
+    padding: 4rem 2rem 5rem 6rem;
     background-color: #f8f7fb;
-    border-radius: 9px;
+    border-radius: 6px;
 }
-.entet-articl{
-    padding: 0px 1rem 0.5rem;
+.entet-articl{    
+    padding: 0px 2rem 0.5rem;
 }
 .titre-articl{
     color: $clr-tlt;
-    font-family: roboto;
+    font-family: $roroto;
     font-weight: 700;
 }
 .text-articl{
@@ -131,15 +137,23 @@ $clr-prg : #8c8fa9 ;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.7px;
+    padding: 1rem 0rem 2rem;
+}
+.row-article{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.col-recl{
+    padding: 1rem 0rem !important;
 }
 .lien-articl{
     color: $clr-prg;
-    font-size: 18px;
+    font-size: 17px;
     font-family: $open-sans;
     letter-spacing: 0.6px;
     font-weight: 600;
     width: 50%;
-    padding: 0.5rem 1rem;
+    padding: 0.9rem 1rem;
 }
 .svg-articl{
     width: 15px;
@@ -150,7 +164,7 @@ $clr-prg : #8c8fa9 ;
 // ===================== css Forum Question ==========================
 
 .forum-container{
-    padding: 5rem 2rem;
+    padding: 5rem 2rem 14rem;
 }
 .span-forum{
     font-family: $lato;
@@ -161,7 +175,7 @@ $clr-prg : #8c8fa9 ;
     color: #373956;
     font-family: $roroto;
     font-weight: 700;
-    padding: 2.5rem 0;
+    padding: 0rem 0 2.5rem;
 }
 .forum-blck{
     border-bottom: 1px solid #9d9fb5;
@@ -169,22 +183,22 @@ $clr-prg : #8c8fa9 ;
 .grp-question{
     justify-content: space-between;
 }
-.question, .question1, .question2, .question3, .question4, .question5, .question6, .question7,
-.question8, .question9, .question10, .question11, .question12, .question13{
+.question {
     padding: 12px 0;
     color: #9b5eb5;
     font-family: $lato;
     font-weight: 700;
 }
 .icon{
-    transform: rotate(-45deg);    
-    padding-top: 3px ;
+    transform: rotate(-45deg);       
+    padding-top: 9px;
+    transition: transform 0.2s ease-in;
 }
 .icon-faq{
     font-family: $roroto;
     font-weight: 500;
     color: #9b5eb5;    
-    font-size: 25px;    
+    font-size: 21px;    
 }
  
 .reponce{
@@ -195,22 +209,351 @@ $clr-prg : #8c8fa9 ;
 }
 .forum-blck {    
         .collapsed {
-            .question, .question1, .question2, .question3, .question4, .question5, .question6, .question7,
-            .question8, .question9, .question10, .question11, .question12, .question13{
+            .question {
                 color: #787a94;                
             }
             .icon{
                 transform: none;
-                padding-top: 6px;
+                padding-top: 13px;
             }
             .icon-faq{
                 color :#787a94 ;
                 padding: 3px;
-                font-size: 20px;
+                font-size: 18px;
             }
         }    
 }
 //======================= css frm-contact =================
 .frm-contact{
     padding-bottom: 1.1rem;
+}
+
+// =================Les media quéri======================
+@media screen and (min-width : 1300px){
+    .container-entet{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .container-page{
+        max-width: 1300px;
+        margin: auto;
+    }
+    .titre-help{       
+        font-size: 39px;
+    }   
+}
+@media screen and (max-width : 991px){
+// ============== en tête ===========
+    .btn-pers{    
+        height: 50px;
+        font-size: 12px;
+    } 
+    .form-rechercher{
+        width: 50%;
+    }
+    .paragraphe-entet {
+        width: 63%;
+        font-size: 13px;
+    }
+    .illustration1{
+        width: 77%;
+    }
+    // ============== Info bull ===========
+    .blck-info {    
+        padding: 2rem 1rem 2rem 2rem;
+        margin: 0 6.6px;
+    }
+    .text-bull {   
+        font-size: 12.5px;
+    }
+    .titre-bull {   
+        letter-spacing: 0.4px; 
+        font-size: 16px;    
+    }
+    // ============== Article ===========
+    .article {
+        margin: 1rem 5rem 4rem;
+        padding: 4rem 2rem 5rem 2rem;   
+    }
+    .titre-articl {    
+        font-size: 25px;
+    }
+    .text-articl {    
+        font-size: 12.5px;
+        letter-spacing: 0.5px;
+    }
+    .svg-articl{
+        width: 13px;
+        margin-bottom: 4px;
+        margin-right: 8px;
+    }
+    .lien-articl{
+        color: #8c8fa9;
+        font-size: 14.5px;
+    }
+    
+    // ============ Foires au questions ===========
+    .forum-container {
+        padding: 5rem 1rem 11rem 0;
+    }
+    .titre-forum {    
+        font-size: 27px;
+    }
+    .span-forum {    
+        font-size: 13px;
+    }
+    .question{
+        padding: 2px 0;    
+        line-height: 1.5;
+    }
+    .icon{      
+        padding-top: 7.2px;
+    }
+    .forum-blck .collapsed .icon {    
+        padding-top: 9px;
+    }    
+
+}
+
+@media screen and (max-width : 767px){
+    .help-s1 {
+        padding: 11rem 0px 4rem;
+    }
+    .titre-help{       
+        font-size: 3.9vw;
+    }    
+    .form-rechercher {
+        width: 59%;
+    }
+    .paragraphe-entet {
+        width: 70%;
+        font-size: 12px;
+    }
+    .btn-pers {
+        height: 47px;
+        font-size: 11px;
+    }
+    .zn-tx::-webkit-input-placeholder {        
+        font-size: 12px;
+      }
+// ===================Css bull Info ==============
+    .bull-info {         
+        padding: 0rem 2rem 5rem;  
+        margin-bottom: 0rem;
+    }
+    .titre-bull {
+        letter-spacing: 0.2px;
+        font-size: 15px;
+    }
+    .text-bull {
+        font-size: 12px;
+    }
+// =================Css Article ==================
+    .text-articl {
+        font-size: 12px;
+        letter-spacing: 0.1px;
+    }
+    .article {
+        margin: 0rem 3rem 0rem;
+        padding: 2rem 2rem 3rem 2rem;
+    }    
+    .lien-articl {
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+    .svg-articl {
+        width: 12px;
+        margin-bottom: 3px;
+        margin-right: 9px;
+    }
+    .col-recl {
+        padding: 1rem 2rem 1rem !important;
+    }
+// ====================Forum  question ================
+    .img-faq{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .illustration2{
+        width: 70%;
+    }
+    .container-question{
+        padding: 0 3rem;
+    }
+    .titre-forum { 
+        font-size: 25px;
+    }
+    .question {        
+        font-size: 13px;
+    }
+    .reponce {       
+        font-size: 13px;
+    }
+    .forum-container {
+        padding: 5rem 1rem 9rem 0;
+    }
+}
+@media screen and (max-width : 616px){
+    .help-s1 {
+        padding: 10rem 0px 3rem;
+    }
+    .titre-help {
+        font-size: 4.2vw;
+        padding: 1.9rem ;
+    }
+    .form-rechercher {
+        width: 70%;
+    }
+    .blck-prg-entet {
+        padding: 4rem 1rem 1rem;
+    }
+    .paragraphe-entet {
+        width: 75%;
+        font-size: 12px;
+    }
+// =================== Bull Info =================
+    .bull-info {
+        padding: 0rem 2rem 4rem;
+    }
+    .blck-info{
+        max-width: 40.5%;
+    }
+    .blck-info {        
+        margin: 1rem;
+    }
+// =================== Article ==================
+    .titre-articl {
+        font-size: 23.5px;
+    }
+    .lien-articl {
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+    .svg-articl {
+        width: 12px;
+        margin-bottom: 3px;
+        margin-right: 9px;
+    }
+    .col-recl {
+        padding: 1rem 2rem 1rem !important;
+    }
+    .row-forum{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .container-question {
+        padding: 0 4.5rem;
+    }
+}
+@media screen and (max-width : 475px){
+// ============En tête ==============
+    .titre-help {
+        font-size: 4.5vw;
+        padding: 1.5rem;
+    }
+    .form-rechercher {
+        width: 72%;       
+    }
+    .btn-pers {
+        height: 45px;
+        font-size: 10px;
+        width: 35%;
+    }
+    .paragraphe-entet {
+        width: 79%;
+        font-size: 11px;
+    }
+    .zn-tx::-webkit-input-placeholder {        
+        font-size: 10.3px;
+      }
+      .zn-tx {        
+        padding-left: 0.5rem;
+        width: 65%;
+    }
+    .illustration1{
+        width: 83%;
+    }
+// ================= Bull Info =============
+    .bull-info {
+        padding: 0rem 0rem 4rem;
+    }
+    .titre-bull {        
+        font-size: 13.5px;
+    }
+    .text-bull {
+        font-size: 11px;
+    }
+    .blck-info {
+        padding: 1.7rem 1rem 1.7rem 1rem;
+        margin: 0.9rem;
+    }
+    .bull-info {
+        padding: 0rem 0rem 3rem;
+    }
+// ================= Article ===============
+    .article {
+        margin: 0rem 2rem 0rem;
+        padding: 2rem 0rem 3rem 1rem;
+    }
+    .col-recl {
+        padding: 1rem 0rem 1rem !important;
+    }
+    .titre-articl {
+        font-size: 21.5px;
+    }
+    .text-articl{
+        font-size: 11px;
+        letter-spacing: 0.5px;
+        padding: 1rem 0rem 1rem;
+    }
+    .lien-articl{
+        font-size: 12px;
+        letter-spacing: 0.2px;
+    }
+    .svg-articl {
+        width: 9px;
+        margin-bottom: 2px;
+        margin-right: 5px;
+    }
+// ============= Forum Question ==============
+    .illustration2 {
+        width: 72%;
+    }
+    .span-forum {
+        font-size: 11.5px;
+    }
+    .titre-forum {
+        font-size: 21px;
+        padding: 0rem 0 1.5rem;
+    }
+    .reponce {
+        font-size: 10.5px;
+        width: 99%;
+    }
+    .question{
+        font-size: 11.5px;
+        width: 85%;
+    }
+    .row-forum{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }   
+    .forum-container {
+        padding: 5rem 1rem 5rem 0;
+    }
+    .container-question {
+        padding: 0 0.5rem;
+    }
+    .icon{      
+        padding: 9px 4px 0 0px;
+    }
+    .forum-blck .collapsed .icon {    
+        padding: 10px 2px 0 0;
+    } 
+    .icon-faq {        
+        font-size: 15px;
+    }
+    .forum-blck .collapsed .icon-faq {        
+        font-size: 13px;
+    }
 }
