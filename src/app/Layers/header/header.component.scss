@@ -42,17 +42,22 @@ $clr-tlt : #373956 ;
 .nav-link {
     color: #373956 !important;    
     font-size: 12.2px;
-    -webkit-text-stroke: 0.5px #373956;
+    // -webkit-text-stroke: 0.5px #5c5c5c;
+    //App
+    // -webkit-text-stroke: 0.2px #5c5c5c;
+    font-weight: 600;
     word-spacing: 2.5px;
     letter-spacing: 0.2px;
 }
 .clr-link {
-    color: #478579  !important;   
-    -webkit-text-stroke: 0.5px #00ffcd;
+    color: red  !important;   
+    // -webkit-text-stroke: 0.5px red;
 }
     
 .link-active{
-    font-weight: 900;
+    // font-weight: 900;
+    //app
+    -webkit-text-stroke: .3px;
 }
 .grp-link{
     display: flex;
@@ -132,4 +137,74 @@ $clr-tlt : #373956 ;
         padding-bottom: 0.7rem;
     }
 }
+
+// css app
+
+@media screen and (min-width : 1400px){
+    .menu-bar{
+        width: 1350px !important;
+        margin: auto !important;
+    }
+    .nav-link{
+        font-size: 13.2px !important;
+        padding: 0.5rem 1.5rem;
+    }
+}
+@media screen and (min-width : 1600px){
+    .menu-bar{
+        width: 1550px !important;
+        margin: auto !important;
+    }
+    .nav-link{
+        font-size: 15.2px !important;
+        padding: 0.5rem 2rem;
+        letter-spacing: 0.6px;
+    }
+    .svg-lg{
+        width: 165px !important;
+    }
+    .menu-bar{
+        transform: translateY(20px) !important;
+        padding-top: 0px !important;
+    }
+
+
+}
+
+@media screen and (min-width : 2000px){
+    .menu-bar{
+        width: 1950px !important;
+        margin: auto !important;
+    }
+    .nav-link{
+        font-size: 17.8px !important;
+        padding: 0.5rem 2.5rem;
+        letter-spacing: 1px;
+    }
+    .svg-lg{
+        width: 185px !important;
+    }
+}
+
+@media screen and (min-width : 2400px){
+    .menu-bar{
+        width: 2350px !important;
+        margin: auto !important;
+    }
+    .nav-link{
+    font-size: 20.2px !important;
+    padding: 0.5rem 3rem;
+    letter-spacing: 1.5px;
+    }
+    .menu-bar{
+        transform: translateY(30px) !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .svg-lg{
+        width: 225px !important;
+    }
+
+}
+
 

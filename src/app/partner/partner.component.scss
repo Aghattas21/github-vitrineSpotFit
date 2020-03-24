@@ -4,8 +4,11 @@
 
 .presentation{
     .entet-acceuil{
-     padding-top: 11.5rem;
+        padding-top: 13.5rem;
      
+    }
+    .bg-color-presentation{
+        background-image: linear-gradient(0deg, #FFFFFF 0%, #f6f5f8 100%);
     }
     .padding-presentation{
         width:87% ;
@@ -340,7 +343,9 @@
 }
 
 @media screen and (max-width : 991px) and (min-width : 768px){
+
     .padding-presentation{
+
         .title-para{
             h4{
                 font-size: 16px !important;
@@ -373,6 +378,9 @@
 
 
 @media screen and (max-width : 991px){
+    .entet-acceuil{
+        padding-top: 8.5rem !important;
+    }
     .padding-presentation{
         width: 90% !important;
         .p-right{
@@ -660,6 +668,9 @@
 }
 
 @media screen and (max-width : 575px){
+    .entet-acceuil{
+        padding-top: 5.5rem !important;
+    }
     .padding-presentation{
         .carousel-inner{
             .m-top{
@@ -929,10 +940,14 @@
     }
 }
 @media screen and (min-width : 1600px){
+    .entet-acceuil{
+        padding-top:15.5rem !important;
+    }
     .padding-presentation{
         width:1400px !important;
         margin-left:auto !important;
         margin-right:auto !important;
+
         .title-presentation{
             font-size: 46px !important;
             letter-spacing: 1px !important;
@@ -1177,10 +1192,14 @@
 }
 
 @media screen and (min-width : 2400px){
+    .entet-acceuil{
+        padding-top:20.5rem !important;
+    }
     .padding-presentation{
         width:2000px !important;
         margin-left:auto !important;
         margin-right:auto !important;
+
         .title-presentation{
             font-size: 64px !important;
             letter-spacing: 1px !important;

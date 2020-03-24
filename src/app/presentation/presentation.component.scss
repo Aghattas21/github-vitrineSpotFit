@@ -4,7 +4,7 @@
 
 .presentation{
     .entet-acceuil{
-     padding-top: 11.5rem;
+        padding-top: 15.5rem;
      
     }
     .padding-presentation{
@@ -179,6 +179,9 @@
 @media screen and (max-width : 991px){
     .padding-presentation{
         width: 90% !important;
+        .entet-acceuil{
+            padding-top: 8.5rem !important;
+        }
         .p-right{
             transform: translateX(0px) !important;
         }
@@ -306,6 +309,7 @@
 
 @media screen and (max-width : 768px){
     .padding-presentation{
+
         .title-presentation{
             font-size: 30px !important;
         }
@@ -331,6 +335,9 @@
 }
 @media screen and (max-width : 560px){
     .padding-presentation{
+        .entet-acceuil{
+            padding-top: 4.5rem !important;
+        }
         .title-presentation{
             font-size: 28px !important;
         }
@@ -444,6 +451,9 @@
         width:1400px !important;
         margin-left:auto !important;
         margin-right:auto !important;
+        .entet-acceuil{
+            padding-top:19.5rem;
+        }
         .title-presentation{
             font-size: 46px !important;
             letter-spacing: 1px !important;
@@ -539,6 +549,9 @@
         width:2000px !important;
         margin-left:auto !important;
         margin-right:auto !important;
+        .entet-acceuil{
+            padding-top:24.5rem;
+        }
         .title-presentation{
             font-size: 64px !important;
             letter-spacing: 2px !important;
