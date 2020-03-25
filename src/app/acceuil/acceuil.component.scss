@@ -17,15 +17,19 @@ $clr-prg : #8c8fa9 ;
 .titre-acceuil{
     font-family: $roroto;
     color: $clr-tlt;
-    font-weight: 700;    
-    line-height: 1;
-    font-size: 39px;  
+    font-weight: 700;        
+    line-height: 1.2;
+    font-size: 39px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .blck-titre{
-    padding: 1rem 0;
+    padding: 1rem 0 4rem;
 }
 .effect-titre {
-    box-shadow: inset 0px -20px 0px 0px #60d9cb;
+    background-image: url(../../assets/home/ligne-horizontale-96.png);
+    background-position: center;
+    background-repeat-y: no-repeat;
 }
 .text-acceuil{
     color: $clr-prg;
@@ -38,10 +42,10 @@ $clr-prg : #8c8fa9 ;
     padding: 0.5rem 0; 
 }
 .entet-acceuil{
-    padding: 10rem 0rem 0rem;
+    padding: 15rem 0rem 0rem;
 }
 .blck-paragraphe{
-    padding: 3rem 3rem 3rem 5rem;
+    padding: 3rem 3rem 3rem 7rem;
 }
 .v-home{
     background-image: url(/assets/home/video-home.png);
@@ -63,8 +67,9 @@ $clr-prg : #8c8fa9 ;
     padding: 0rem 1rem 2rem 8.5%;    
 }
 .ovr-scrl{
-    overflow-x: scroll;   
-    width: 90%;     
+    overflow-x: scroll;          
+    width: 94%;
+    margin-left: auto; 
 }
 .ovr-scrl::-webkit-scrollbar {
     display: none;
@@ -72,8 +77,9 @@ $clr-prg : #8c8fa9 ;
 // ======================== css apropos =====================
 
 .apropos{
-    padding: 3rem;
+    padding: 5rem 3rem 9rem 3rem;
 }
+
 .titre-apropos{
     text-align: center;
     color: #373956;
@@ -100,7 +106,7 @@ $clr-prg : #8c8fa9 ;
 .apro-bg,.apro-bg2,.apro-bg3{
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 15% 100%;
+    background-size: 25% 100%;
 }
 
 .apro-bg{
